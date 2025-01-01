@@ -158,7 +158,15 @@ class VectorStoreManager:
         # Instantiate a Pinecone client
         pc = Pinecone(pinecone_api_key=self.pinecone_api_key)
         existing_indexes = [index_info["name"] for index_info in pc.list_indexes()]
-        if self.pinecone_index_name not in existing_indexes:
+        
+        if self.pinecone_index_name in existing_indexes:
+            # Connect to the existing index and wipe it clean
+            logger.info(f"Pinecone index '{self.pinecone_index_name}' exists. Deleting all vectors.")
+            index = pc.Index(self.pinecone_index_name)
+            index.delete(delete_all=True)
+            logger.info(f"Pinecone index '{self.pinecone_index_name}' wiped clean.")
+        else:
+            logger.info(f"Pinecone index '{self.pinecone_index_name}' does not exist. Creating it.")
             pc.create_index(
                 name=self.pinecone_index_name,
                 dimension=self.dimension,
@@ -186,7 +194,7 @@ class VectorStoreManager:
     # -------------------------------------------------------------------------
     # Public Methods
     # -------------------------------------------------------------------------
-            
+                   
     def add_documents(
         self,
         documents: List[Document],

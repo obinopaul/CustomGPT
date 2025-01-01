@@ -311,25 +311,24 @@ if user_prompt := st.chat_input("Your prompt"):
                 message_placeholder.markdown(full_response + "▌")
             message_placeholder.markdown(full_response)
 
-            # # Display sources if available
-            # if sources:
-            #     sources_placeholder.markdown("**Sources:**")
-            #     for source in sources:
-            #         if source.startswith("http://") or source.startswith("https://"):
-            #             sources_placeholder.markdown(f"- [{source}]({source})")
-            #         else:
-            #             sources_placeholder.markdown(f"- {source}")
-
+            # Display sources if available
             # Display sources if available
             if sources:
                 sources_placeholder.markdown("**Sources:**")
-                for idx, source in enumerate(sources, start=1):
+                unique_sources = list(set(sources))  # Remove duplicates by converting to a set and back 
+                source_links = []
+                for idx, source in enumerate(unique_sources, start=1):
                     # Check if the source is a valid URL and display it as a clickable link
                     if isinstance(source, str):
-                        sources_placeholder.markdown(f"{idx}. [{source}]({source})" if source.startswith("http") else f"{idx}. {source}")
+                        if source.startswith("http"):
+                            source_links.append(f"{idx}. [{source}]({source})")
+                        else:
+                            source_links.append(f"{idx}. {source}")
                     else:
                         # Handle non-string sources (e.g., dicts or objects)
-                        sources_placeholder.markdown(f"{idx}. {str(source)}")
+                        source_links.append(f"{idx}. {str(source)}")
+                # Combine all source links and display them
+                sources_placeholder.markdown("\n".join(source_links))
 
                             
             # Save the response to session and MongoDB
