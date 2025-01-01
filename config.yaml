@@ -1,0 +1,91 @@
+pipeline:
+  model_type: "openai"
+  use_rag: true
+
+data_sources:
+  data_task: "github_repo"
+  data_value: "https://github.com/..."
+
+
+# config.yaml
+# -----------------------------------------------------------------------------
+# Example master configuration for a RAG + LLM pipeline that ingests data
+# from local files, URLs, GitHub repos, GitHub issues, or research papers.
+# -----------------------------------------------------------------------------
+
+secrets:
+  # Store sensitive tokens & API keys
+  # (In production, you might move these to environment variables or a secret manager!)
+  github_access_token: "ghp_XXXXX"
+  ieee_api_key: "IEEE_API_KEY_GOES_HERE"
+  elsevier_api_key: "ELSEVIER_API_KEY"
+  arxiv_token: "ARXIV_TOKEN_IF_NEEDED"
+  pinecone_api_key: "YOUR_PINECONE_KEY"
+  openai_api_key: "sk-..."
+  huggingface_api_key: "hf_..."
+
+vector_store:
+  # Choose between 'chroma' or 'pinecone'
+  type: "pinecone"
+  # If Pinecone
+  index_name: "langchain-index"
+  # If Chroma
+  collection_name: "langchain_collection"
+  # (Optional) Where to persist Chroma data
+  persist_directory: "./chroma_db"
+
+embedding:
+  # "openai", "huggingface", or "llama"
+  type: "openai"
+  # If huggingface or llama, specify model_name or model_path
+  # model_name: "sentence-transformers/all-mpnet-base-v2"
+  # If openai, default model might be "text-embedding-ada-002"
+  # This could also store disallowed_search, logit_bias, etc.
+
+text_splitter:
+  # For chunking large documents
+  splitter_type: "recursive"
+  chunk_size: 1000
+  chunk_overlap: 200
+
+rag_settings:
+  # Controls whether we do retrieval-based QA or standard chat
+  use_rag: true
+
+  # For retrieving top-K documents
+  k: 4
+
+  # memory_type can be "buffer" or "window"
+  memory_type: "buffer"
+
+data_task:
+  # One of ["file", "url", "github_repo", "github_issues", "research_papers", "text"]
+  type: "github_repo"
+  value: "https://github.com/obinopaul/licence-plate-detection.git"
+  
+  # Additional parameters for certain tasks
+  clone_dir: "./cloned_repo"
+  max_results: 15  # for research papers, or GitHub issues, etc.
+  sources: ["ieee", "elsevier", "arxiv"]  # if you're splitting from research papers
+
+# LLM / Chatbot parameters
+model_settings:
+  # Which LLM pipeline to use: "openai", "huggingface", or "llama"
+  model_type: "openai"
+
+  # Optional model path/name for huggingface or llama
+  # model_path: "models/ggml-model.bin"
+  # model_name: "facebook/opt-350m"
+
+  # Basic generation settings
+  temperature: 0.7
+  max_tokens: 150
+  top_p: 0.9
+  freq_penalty: 0.3
+  pres_penalty: 0.5
+
+  # If you want advanced huggingface pipeline settings:
+  # model_kwargs:
+  #   device: "cuda"
+  #   torch_dtype: "fp16"
+  # or for llama: n_ctx, num_threads, etc.

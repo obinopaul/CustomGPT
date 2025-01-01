@@ -68,8 +68,8 @@ The chatbot features a simple and intuitive **Streamlit-based user interface**, 
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/obinopaul/CustomGPT.git
+   cd CustomGPT
    ```
 
 2. **Set Up the Environment**  
