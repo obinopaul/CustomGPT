@@ -190,13 +190,19 @@ class VectorStoreManager:
     def add_documents(
         self,
         documents: List[Document],
-        ids: Optional[List[str]] = None
+        ids: Optional[List[str]] = None,
+        clear_store: bool = False
     ):
         """
         Add a list of Document objects to the vector store.
         :param documents: List of LangChain Document objects.
         :param ids: Optional list of unique identifiers for the documents.
+        :param clear_store: If True, clears the vector store before adding documents.
         """
+        if clear_store:
+            logger.info("Clearing vector store before adding new documents.")
+            self.clear_vector_store()
+        
         if not documents:
             logger.warning("No documents provided to add to the vector store.")
             return

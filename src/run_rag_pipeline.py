@@ -80,12 +80,14 @@ class RunChatbot:
         model_name: Optional[str] = None,           # for HuggingFace
         model:Optional[str] = None,                 # for OpenAI model. This is the model name
         temperature: float = 0.7,
-        max_tokens: int = 150,
+        # max_tokens: int = 150,
         top_p: float = 0.9,
         freq_penalty: float = 0.3,
         pres_penalty: float = 0.5,
         chunk_size: int = 1000,
         chunk_overlap: int = 200,
+        elsevier_api_key: Optional[str] = None,
+        ieee_api_key: Optional[str] = None,
         
         **kwargs
     ):
@@ -117,9 +119,11 @@ class RunChatbot:
         self.embedding_type = embedding_type
         self.model_path = model_path
         self.model_name = model_name
+        self.ieee_api_key = ieee_api_key
+        self.elsevier_api_key = elsevier_api_key
 
         self.temperature = temperature
-        self.max_tokens = max_tokens
+        # self.max_tokens = max_tokens
         self.top_p = top_p
         self.freq_penalty = freq_penalty
         self.pres_penalty = pres_penalty
@@ -168,7 +172,7 @@ class RunChatbot:
         self.splitter = TextSplitter(
             splitter_type='recursive',
             chunk_size=self.chunk_size,
-            chunk_overlap=self.chunk_overlap
+            chunk_overlap=self.chunk_overlap,
         )
 
         # We'll handle each data_task
@@ -208,12 +212,14 @@ class RunChatbot:
             query_str = self.data_value
             max_results = self.kwargs.get("max_results", 20)
             sources = self.kwargs.get("sources", ["ieee", "elsevier", "arxiv"])
-            ieee_api_key = self.kwargs.get("ieee_api_key", "")
+            # ieee_api_key = self.kwargs.get("ieee_api_key", "")
+            # elsevier_api_key = self.kwargs.get("elsevier_api_key", "")
             self.docs = self.splitter.split_research_papers_documents(
                 query=query_str,
                 max_results=max_results,
                 sources=sources,
-                ieee_api_key=ieee_api_key
+                ieee_api_key = self.ieee_api_key,
+                elsevier_api_key = self.elsevier_api_key
             )
 
         # elif self.data_task == "text":
@@ -259,7 +265,7 @@ class RunChatbot:
 
         # 2) Add docs
         if self.docs:
-            self.vector_store_manager.add_documents(documents=self.docs)
+            self.vector_store_manager.add_documents(documents=self.docs, clear_store=True)
             logger.info("Documents added to VectorStoreManager.")
 
         # 3) Create a retriever

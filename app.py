@@ -300,11 +300,10 @@ if user_prompt := st.chat_input("Your prompt"):
                 answer = answer
             elif hasattr(answer, 'content'):
                 answer = answer.content
-                sources = result.additional_kwargs.get('sources', [])
+                # sources = result.additional_kwargs.get('sources', [])
             else:
                 answer = answer['result'].content
-                
-            # sources = result.get('sources', "") 
+                 
         
             # Display the assistant's response
             for token in answer:
@@ -312,15 +311,27 @@ if user_prompt := st.chat_input("Your prompt"):
                 message_placeholder.markdown(full_response + "▌")
             message_placeholder.markdown(full_response)
 
+            # # Display sources if available
+            # if sources:
+            #     sources_placeholder.markdown("**Sources:**")
+            #     for source in sources:
+            #         if source.startswith("http://") or source.startswith("https://"):
+            #             sources_placeholder.markdown(f"- [{source}]({source})")
+            #         else:
+            #             sources_placeholder.markdown(f"- {source}")
+
             # Display sources if available
             if sources:
                 sources_placeholder.markdown("**Sources:**")
-                for source in sources:
-                    if source.startswith("http://") or source.startswith("https://"):
-                        sources_placeholder.markdown(f"- [{source}]({source})")
+                for idx, source in enumerate(sources, start=1):
+                    # Check if the source is a valid URL and display it as a clickable link
+                    if isinstance(source, str):
+                        sources_placeholder.markdown(f"{idx}. [{source}]({source})" if source.startswith("http") else f"{idx}. {source}")
                     else:
-                        sources_placeholder.markdown(f"- {source}")
-                        
+                        # Handle non-string sources (e.g., dicts or objects)
+                        sources_placeholder.markdown(f"{idx}. {str(source)}")
+
+                            
             # Save the response to session and MongoDB
             st.session_state.messages.append({"role": "assistant", "content": full_response})
             chats_collection.insert_one(

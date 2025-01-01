@@ -52,7 +52,7 @@ class OpenAIChatbot:
             api_key=api_key,
             model=model,
             temperature=temperature,
-            max_tokens=max_tokens
+            # max_tokens=max_tokens
         )
 
         # Prepare a memory object for multi-turn conversation

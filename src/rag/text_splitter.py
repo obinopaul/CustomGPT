@@ -26,7 +26,11 @@ class TextSplitter:
         splitter_type: str = "recursive",
         chunk_size: int = 1000,
         chunk_overlap: int = 200,
-        model_name: Optional[str] = None
+        model_name: Optional[str] = None,
+        # ieee_api_key = None,
+        # elsevier_api_key = None,
+        
+        **kwargs
     ):
         """
         Initialize the TextSplitter.
@@ -41,6 +45,10 @@ class TextSplitter:
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.model_name = model_name
+        # self.ieee_api_key = ieee_api_key
+        # self.elsevier_api_key = elsevier_api_key
+        # Additional
+        self.kwargs = kwargs  # For advanced usage
         if splitter_type == "recursive":
             self.splitter = RecursiveCharacterTextSplitter(
                 chunk_size=chunk_size,
@@ -154,6 +162,7 @@ class TextSplitter:
         :return: List of split Document objects.
         """
         logger.info(f"Loading research papers with query: '{query}', max_results: {max_results}, sources: {sources}")
+        
         loader = ResearchPapersDocumentLoader(
             ieee_api_key=ieee_api_key,
             elsevier_api_key=elsevier_api_key

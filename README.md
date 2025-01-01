@@ -7,6 +7,11 @@ This project was developed during the Christmas holidays of 2024 and marks my fi
 
 ---
 
+<div align="center">
+  <img src="CustomGPT.gif" alt="Alt Text" />
+</div>
+
+
 ## Key Features
 
 ### 1. **Model Support**
