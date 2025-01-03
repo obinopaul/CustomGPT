@@ -620,3 +620,2013 @@ To disable this check for all special tokens, pass `disallowed_special=()`.
 2025-01-03 06:29:26,730 - lightrag - INFO - Creating a new event loop in main thread.
 2025-01-03 06:29:26,732 - lightrag - INFO - Processing 4 new unique documents
 2025-01-03 06:29:26,743 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 06:30:13,968 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 06:30:13,972 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 06:30:13,976 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 06:30:15,396 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 06:30:16,551 - lightrag - INFO - Writing graph with 364 nodes, 255 edges
+2025-01-03 06:30:16,579 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 06:30:23,481 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 06:30:23,482 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 06:30:23,483 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 06:30:23,483 - lightrag - INFO - Inserting 2 vectors to entities
+2025-01-03 06:30:24,462 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 06:30:24,462 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 06:30:24,571 - lightrag - INFO - Writing graph with 366 nodes, 255 edges
+2025-01-03 06:30:24,602 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 06:30:51,911 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 06:30:51,912 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 06:30:51,913 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 06:30:53,482 - lightrag - INFO - Inserting 2 vectors to relationships
+2025-01-03 06:30:54,583 - lightrag - INFO - Writing graph with 378 nodes, 257 edges
+2025-01-03 06:30:54,626 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 06:31:56,856 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 06:31:56,860 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 06:31:56,862 - lightrag - INFO - Inserting 21 vectors to entities
+2025-01-03 06:31:58,442 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 06:31:59,961 - lightrag - INFO - Writing graph with 401 nodes, 268 edges
+2025-01-03 06:32:41,141 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 06:32:42,429 - lightrag - INFO - Truncate 11 to 11 chunks
+2025-01-03 08:27:55,371 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-03 08:27:55,373 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-03 08:27:55,377 - lightrag - INFO - Load KV full_docs with 33 data
+2025-01-03 08:27:55,380 - lightrag - INFO - Load KV text_chunks with 33 data
+2025-01-03 08:27:55,409 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 401 nodes, 268 edges
+2025-01-03 08:27:55,506 - lightrag - INFO - Loaded document status storage with 34 records
+2025-01-03 08:27:55,508 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-03 08:27:55,509 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-03 08:27:55,511 - lightrag - INFO - Load KV full_docs with 33 data
+2025-01-03 08:27:55,512 - lightrag - INFO - Load KV text_chunks with 33 data
+2025-01-03 08:27:55,545 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 401 nodes, 268 edges
+2025-01-03 08:27:55,636 - lightrag - INFO - Loaded document status storage with 34 records
+2025-01-03 08:27:55,636 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:27:55,638 - lightrag - INFO - Processing 2 new unique documents
+2025-01-03 08:27:55,655 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 08:28:48,473 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 08:28:48,477 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 08:28:48,478 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 08:28:49,842 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 08:28:51,235 - lightrag - INFO - Writing graph with 414 nodes, 277 edges
+2025-01-03 08:28:51,267 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 08:30:07,969 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 08:30:07,973 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 08:30:07,977 - lightrag - INFO - Inserting 22 vectors to entities
+2025-01-03 08:30:09,408 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 08:30:11,080 - lightrag - INFO - Writing graph with 432 nodes, 285 edges
+2025-01-03 08:30:22,651 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:30:23,594 - lightrag - INFO - Truncate 16 to 11 chunks
+2025-01-03 08:32:42,001 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:32:43,153 - lightrag - INFO - Truncate 5 to 5 chunks
+2025-01-03 08:47:11,600 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:47:12,788 - lightrag - INFO - Truncate 4 to 4 chunks
+2025-01-03 08:49:34,190 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:49:35,539 - lightrag - INFO - Truncate 2 to 2 chunks
+2025-01-03 08:50:03,963 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 08:50:05,010 - lightrag - INFO - Truncate 3 to 3 chunks
+2025-01-03 12:13:04,955 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-03 12:13:04,956 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-03 12:13:04,958 - lightrag - INFO - Load KV full_docs with 35 data
+2025-01-03 12:13:04,961 - lightrag - INFO - Load KV text_chunks with 35 data
+2025-01-03 12:13:04,993 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 432 nodes, 285 edges
+2025-01-03 12:13:05,073 - lightrag - INFO - Loaded document status storage with 36 records
+2025-01-03 12:13:05,076 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-03 12:13:05,078 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-03 12:13:05,080 - lightrag - INFO - Load KV full_docs with 35 data
+2025-01-03 12:13:05,081 - lightrag - INFO - Load KV text_chunks with 35 data
+2025-01-03 12:13:05,108 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 432 nodes, 285 edges
+2025-01-03 12:13:05,192 - lightrag - INFO - Loaded document status storage with 36 records
+2025-01-03 12:13:05,193 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-03 12:13:05,200 - lightrag - INFO - Processing 195 new unique documents
+2025-01-03 12:13:05,225 - lightrag - INFO - Inserting 3 vectors to chunks
+2025-01-03 12:16:28,528 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:16:28,546 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:16:28,554 - lightrag - INFO - Inserting 95 vectors to entities
+2025-01-03 12:16:33,512 - lightrag - INFO - Inserting 43 vectors to relationships
+2025-01-03 12:16:36,961 - lightrag - INFO - Writing graph with 526 nodes, 328 edges
+2025-01-03 12:16:37,025 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:17:44,846 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:17:44,849 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:17:44,851 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 12:17:46,433 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:17:48,077 - lightrag - INFO - Writing graph with 535 nodes, 336 edges
+2025-01-03 12:17:48,137 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:18:30,395 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:18:30,419 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:18:30,422 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 12:18:31,840 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:18:33,298 - lightrag - INFO - Writing graph with 549 nodes, 345 edges
+2025-01-03 12:18:33,352 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:19:36,970 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:19:36,976 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:19:36,980 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 12:19:38,795 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:19:40,418 - lightrag - INFO - Writing graph with 559 nodes, 354 edges
+2025-01-03 12:19:40,470 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:20:08,294 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:20:08,296 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:20:08,299 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:20:10,217 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:20:12,112 - lightrag - INFO - Writing graph with 568 nodes, 362 edges
+2025-01-03 12:20:12,186 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:21:07,040 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:21:07,044 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:21:07,049 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 12:21:08,863 - lightrag - INFO - Inserting 14 vectors to relationships
+2025-01-03 12:21:10,853 - lightrag - INFO - Writing graph with 580 nodes, 376 edges
+2025-01-03 12:21:10,928 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:21:54,903 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:21:54,905 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:21:54,909 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:21:56,767 - lightrag - INFO - Inserting 5 vectors to relationships
+2025-01-03 12:21:58,278 - lightrag - INFO - Writing graph with 587 nodes, 381 edges
+2025-01-03 12:21:58,346 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:23:22,492 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:23:22,496 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:23:22,498 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 12:23:24,146 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 12:23:25,901 - lightrag - INFO - Writing graph with 597 nodes, 391 edges
+2025-01-03 12:23:25,973 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:24:41,393 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:24:41,403 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:24:41,407 - lightrag - INFO - Inserting 16 vectors to entities
+2025-01-03 12:24:43,428 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:24:45,236 - lightrag - INFO - Writing graph with 610 nodes, 400 edges
+2025-01-03 12:24:45,295 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:25:29,359 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:25:29,366 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:25:29,369 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:25:31,260 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 12:25:32,867 - lightrag - INFO - Writing graph with 621 nodes, 406 edges
+2025-01-03 12:25:32,953 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:26:47,097 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:26:47,100 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:26:47,101 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:26:48,484 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:26:50,376 - lightrag - INFO - Writing graph with 633 nodes, 415 edges
+2025-01-03 12:26:50,441 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:27:32,978 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:27:32,987 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:27:32,990 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:27:34,766 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 12:27:36,614 - lightrag - INFO - Writing graph with 644 nodes, 426 edges
+2025-01-03 12:27:36,686 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:28:16,106 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:28:16,110 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:28:16,112 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 12:28:17,960 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:28:19,502 - lightrag - INFO - Writing graph with 656 nodes, 433 edges
+2025-01-03 12:28:19,583 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:29:36,555 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:29:36,561 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:29:36,563 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 12:29:38,423 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 12:29:40,039 - lightrag - INFO - Writing graph with 669 nodes, 444 edges
+2025-01-03 12:29:40,116 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:30:30,582 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:30:30,586 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:30:30,589 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:30:32,310 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 12:30:34,394 - lightrag - INFO - Writing graph with 675 nodes, 451 edges
+2025-01-03 12:30:34,482 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:31:36,385 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:31:36,392 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:31:36,395 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:31:38,304 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 12:31:40,269 - lightrag - INFO - Writing graph with 689 nodes, 461 edges
+2025-01-03 12:31:40,339 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:32:15,423 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:32:15,425 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:32:15,428 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 12:32:17,130 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:32:21,694 - lightrag - INFO - Writing graph with 697 nodes, 468 edges
+2025-01-03 12:32:21,807 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:33:21,011 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:33:21,017 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:33:21,022 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:33:22,884 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:33:24,875 - lightrag - INFO - Writing graph with 706 nodes, 476 edges
+2025-01-03 12:33:24,956 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:34:32,213 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:34:32,223 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:34:32,226 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 12:34:34,245 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 12:34:36,168 - lightrag - INFO - Writing graph with 717 nodes, 485 edges
+2025-01-03 12:34:36,257 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:35:33,504 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:35:33,508 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:35:33,510 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 12:35:35,022 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 12:35:36,830 - lightrag - INFO - Writing graph with 723 nodes, 491 edges
+2025-01-03 12:35:36,930 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:36:19,753 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:36:19,763 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:36:19,764 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 12:36:19,765 - lightrag - INFO - Inserting 22 vectors to entities
+2025-01-03 12:36:21,889 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 12:36:21,890 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 12:36:22,157 - lightrag - INFO - Writing graph with 744 nodes, 491 edges
+2025-01-03 12:36:22,232 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:36:58,614 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:36:58,620 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:36:58,622 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:37:00,530 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:37:02,475 - lightrag - INFO - Writing graph with 752 nodes, 500 edges
+2025-01-03 12:37:02,561 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:37:37,542 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:37:37,547 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:37:37,549 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:37:39,189 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:37:41,222 - lightrag - INFO - Writing graph with 757 nodes, 509 edges
+2025-01-03 12:37:41,289 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:39:32,075 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:39:32,082 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:39:32,085 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 12:39:34,020 - lightrag - INFO - Inserting 15 vectors to relationships
+2025-01-03 12:39:36,140 - lightrag - INFO - Writing graph with 767 nodes, 523 edges
+2025-01-03 12:39:36,224 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:40:42,607 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:40:42,613 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:40:42,616 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 12:40:44,353 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:40:46,529 - lightrag - INFO - Writing graph with 775 nodes, 531 edges
+2025-01-03 12:40:46,622 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:41:18,812 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:41:18,817 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:41:18,819 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:41:20,844 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 12:41:22,468 - lightrag - INFO - Writing graph with 782 nodes, 534 edges
+2025-01-03 12:41:22,558 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:42:13,910 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:42:13,917 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:42:13,919 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 12:42:15,759 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 12:42:17,674 - lightrag - INFO - Writing graph with 790 nodes, 541 edges
+2025-01-03 12:42:17,773 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:47:04,145 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:47:04,154 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:47:04,156 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 12:47:05,969 - lightrag - INFO - Inserting 13 vectors to relationships
+2025-01-03 12:47:08,107 - lightrag - INFO - Writing graph with 804 nodes, 554 edges
+2025-01-03 12:47:08,199 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:48:14,338 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:48:14,351 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:48:14,381 - lightrag - INFO - Inserting 16 vectors to entities
+2025-01-03 12:48:16,296 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:48:17,994 - lightrag - INFO - Writing graph with 816 nodes, 562 edges
+2025-01-03 12:48:18,083 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:48:42,338 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:48:42,340 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:48:42,342 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 12:48:42,342 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 12:48:44,314 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 12:48:44,314 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 12:48:44,638 - lightrag - INFO - Writing graph with 826 nodes, 562 edges
+2025-01-03 12:48:44,724 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:49:29,279 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:49:44,405 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:49:44,408 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 12:49:46,161 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:49:51,287 - lightrag - INFO - Writing graph with 835 nodes, 571 edges
+2025-01-03 12:49:51,386 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:50:44,550 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:50:44,554 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:50:44,557 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 12:50:46,221 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:50:48,512 - lightrag - INFO - Writing graph with 842 nodes, 579 edges
+2025-01-03 12:50:48,616 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:52:21,856 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:52:21,860 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:52:21,866 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 12:52:23,272 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 12:52:25,351 - lightrag - INFO - Writing graph with 853 nodes, 589 edges
+2025-01-03 12:52:25,440 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:53:21,697 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:53:21,701 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:53:21,704 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 12:53:23,288 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:53:25,216 - lightrag - INFO - Writing graph with 855 nodes, 595 edges
+2025-01-03 12:53:25,306 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:54:04,759 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:54:04,768 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:54:04,769 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:54:06,652 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 12:54:08,650 - lightrag - INFO - Writing graph with 865 nodes, 604 edges
+2025-01-03 12:54:08,754 - lightrag - INFO - Inserting 2 vectors to chunks
+2025-01-03 12:54:47,172 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:54:47,177 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:54:47,180 - lightrag - INFO - Inserting 16 vectors to entities
+2025-01-03 12:54:49,007 - lightrag - INFO - Inserting 4 vectors to relationships
+2025-01-03 12:54:50,718 - lightrag - INFO - Writing graph with 880 nodes, 608 edges
+2025-01-03 12:54:50,809 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:55:27,526 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:55:27,531 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:55:27,534 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:55:29,064 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 12:55:31,054 - lightrag - INFO - Writing graph with 891 nodes, 616 edges
+2025-01-03 12:55:31,217 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:56:13,578 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:56:13,586 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:56:13,590 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 12:56:15,470 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 12:56:17,248 - lightrag - INFO - Writing graph with 900 nodes, 626 edges
+2025-01-03 12:56:17,374 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:57:12,819 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:57:12,827 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:57:12,831 - lightrag - INFO - Inserting 26 vectors to entities
+2025-01-03 12:57:17,590 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 12:57:19,777 - lightrag - INFO - Writing graph with 921 nodes, 637 edges
+2025-01-03 12:57:19,884 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:58:08,699 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:58:08,701 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:58:08,705 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 12:58:10,429 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 12:58:12,489 - lightrag - INFO - Writing graph with 929 nodes, 647 edges
+2025-01-03 12:58:12,592 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 12:59:36,468 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 12:59:36,512 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 12:59:36,515 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 12:59:38,267 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 12:59:40,485 - lightrag - INFO - Writing graph with 939 nodes, 658 edges
+2025-01-03 12:59:40,593 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:00:17,827 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:00:17,832 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:00:17,844 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:00:19,659 - lightrag - INFO - Inserting 13 vectors to relationships
+2025-01-03 13:00:21,875 - lightrag - INFO - Writing graph with 946 nodes, 670 edges
+2025-01-03 13:00:21,987 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:01:24,255 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:01:24,260 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:01:24,262 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:01:26,234 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:01:28,637 - lightrag - INFO - Writing graph with 957 nodes, 678 edges
+2025-01-03 13:01:28,739 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:02:34,277 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:02:34,284 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:02:34,288 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:02:35,905 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:02:38,051 - lightrag - INFO - Writing graph with 966 nodes, 685 edges
+2025-01-03 13:02:38,169 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:03:51,430 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:03:51,435 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:03:51,437 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:03:53,208 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:03:55,066 - lightrag - INFO - Writing graph with 978 nodes, 693 edges
+2025-01-03 13:03:55,169 - lightrag - INFO - Inserting 2 vectors to chunks
+2025-01-03 13:04:44,529 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:04:44,538 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:04:44,542 - lightrag - INFO - Inserting 26 vectors to entities
+2025-01-03 13:04:46,875 - lightrag - INFO - Inserting 15 vectors to relationships
+2025-01-03 13:04:49,254 - lightrag - INFO - Writing graph with 999 nodes, 708 edges
+2025-01-03 13:04:49,369 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:06:07,029 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:06:07,036 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:06:07,039 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:06:09,055 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 13:06:11,040 - lightrag - INFO - Writing graph with 1000 nodes, 712 edges
+2025-01-03 13:06:11,143 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:07:02,037 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:07:02,048 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:07:02,052 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:07:03,616 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:07:05,670 - lightrag - INFO - Writing graph with 1007 nodes, 720 edges
+2025-01-03 13:07:05,803 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:07:56,502 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:08:09,774 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:08:09,778 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:08:11,622 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:08:13,847 - lightrag - INFO - Writing graph with 1012 nodes, 727 edges
+2025-01-03 13:08:13,959 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:08:57,577 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:08:57,585 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:08:57,592 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:08:59,472 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:09:01,567 - lightrag - INFO - Writing graph with 1021 nodes, 734 edges
+2025-01-03 13:09:01,718 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:09:40,441 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:09:40,445 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:09:40,449 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:09:42,262 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:09:44,350 - lightrag - INFO - Writing graph with 1033 nodes, 741 edges
+2025-01-03 13:09:44,459 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:10:15,855 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:10:15,861 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:10:15,864 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:10:17,301 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:10:19,301 - lightrag - INFO - Writing graph with 1040 nodes, 748 edges
+2025-01-03 13:10:19,423 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:10:52,940 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:10:59,491 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:10:59,494 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:11:00,950 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:11:02,807 - lightrag - INFO - Writing graph with 1046 nodes, 758 edges
+2025-01-03 13:11:02,926 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:11:46,708 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:11:46,713 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:11:46,716 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:11:48,402 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:11:50,530 - lightrag - INFO - Writing graph with 1052 nodes, 763 edges
+2025-01-03 13:11:50,662 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:12:58,066 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:12:58,073 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:12:58,078 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:12:59,855 - lightrag - INFO - Inserting 14 vectors to relationships
+2025-01-03 13:13:02,091 - lightrag - INFO - Writing graph with 1059 nodes, 771 edges
+2025-01-03 13:13:02,218 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:13:27,579 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:13:27,584 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:13:27,587 - lightrag - INFO - Inserting 8 vectors to entities
+2025-01-03 13:13:29,578 - lightrag - INFO - Inserting 4 vectors to relationships
+2025-01-03 13:13:31,383 - lightrag - INFO - Writing graph with 1063 nodes, 774 edges
+2025-01-03 13:13:31,489 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:13:52,440 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:13:52,445 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:13:52,448 - lightrag - INFO - Inserting 7 vectors to entities
+2025-01-03 13:13:53,771 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 13:13:55,511 - lightrag - INFO - Writing graph with 1066 nodes, 779 edges
+2025-01-03 13:13:55,625 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:14:45,551 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:14:45,555 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:14:45,557 - lightrag - INFO - Inserting 16 vectors to entities
+2025-01-03 13:14:47,055 - lightrag - INFO - Inserting 13 vectors to relationships
+2025-01-03 13:14:49,496 - lightrag - INFO - Writing graph with 1079 nodes, 791 edges
+2025-01-03 13:14:49,622 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:15:47,619 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:15:47,623 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:15:47,626 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:15:49,579 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:15:51,587 - lightrag - INFO - Writing graph with 1091 nodes, 800 edges
+2025-01-03 13:15:51,709 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:16:42,951 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:16:42,962 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:16:42,965 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:16:44,630 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:16:46,554 - lightrag - INFO - Writing graph with 1101 nodes, 808 edges
+2025-01-03 13:16:46,681 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:17:24,681 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:17:24,686 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:17:24,691 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:17:26,153 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:17:28,300 - lightrag - INFO - Writing graph with 1108 nodes, 818 edges
+2025-01-03 13:17:28,416 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:18:07,190 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:18:07,195 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:18:07,198 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 13:18:08,819 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 13:18:11,081 - lightrag - INFO - Writing graph with 1111 nodes, 823 edges
+2025-01-03 13:18:11,186 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:18:48,712 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:18:48,715 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:18:48,716 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:18:50,071 - lightrag - INFO - Inserting 1 vectors to relationships
+2025-01-03 13:18:51,753 - lightrag - INFO - Writing graph with 1120 nodes, 824 edges
+2025-01-03 13:18:51,872 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:19:42,144 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:19:42,151 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:19:42,156 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:19:43,763 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:19:45,659 - lightrag - INFO - Writing graph with 1127 nodes, 832 edges
+2025-01-03 13:19:45,773 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:20:43,352 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:20:43,358 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:20:43,361 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:20:44,896 - lightrag - INFO - Inserting 13 vectors to relationships
+2025-01-03 13:20:47,038 - lightrag - INFO - Writing graph with 1135 nodes, 844 edges
+2025-01-03 13:20:47,161 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:21:42,868 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:21:42,874 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:21:42,880 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:21:45,012 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:21:47,050 - lightrag - INFO - Writing graph with 1140 nodes, 849 edges
+2025-01-03 13:21:47,180 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:22:48,272 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:22:48,277 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:22:48,280 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:22:50,016 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:22:52,019 - lightrag - INFO - Writing graph with 1146 nodes, 856 edges
+2025-01-03 13:22:52,138 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:23:28,464 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:23:40,922 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:23:40,924 - lightrag - INFO - Inserting 16 vectors to entities
+2025-01-03 13:23:42,404 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:23:44,451 - lightrag - INFO - Writing graph with 1155 nodes, 864 edges
+2025-01-03 13:23:44,578 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:24:47,795 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:24:47,801 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:24:47,804 - lightrag - INFO - Inserting 19 vectors to entities
+2025-01-03 13:24:50,107 - lightrag - INFO - Inserting 5 vectors to relationships
+2025-01-03 13:24:52,225 - lightrag - INFO - Writing graph with 1172 nodes, 869 edges
+2025-01-03 13:24:52,367 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:25:41,563 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:25:54,584 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:25:54,587 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:25:56,675 - lightrag - INFO - Inserting 5 vectors to relationships
+2025-01-03 13:25:58,407 - lightrag - INFO - Writing graph with 1184 nodes, 874 edges
+2025-01-03 13:25:58,542 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:26:58,857 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:26:58,866 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:26:58,869 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:27:00,937 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:27:02,954 - lightrag - INFO - Writing graph with 1190 nodes, 882 edges
+2025-01-03 13:27:03,091 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:27:43,550 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:27:43,557 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:27:43,561 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:27:45,479 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:27:47,507 - lightrag - INFO - Writing graph with 1196 nodes, 889 edges
+2025-01-03 13:27:47,638 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:28:32,164 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:28:44,965 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:28:44,968 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:28:46,607 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 13:28:48,645 - lightrag - INFO - Writing graph with 1207 nodes, 900 edges
+2025-01-03 13:28:48,785 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:30:13,609 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:30:13,623 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:30:13,626 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:30:15,535 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 13:30:17,811 - lightrag - INFO - Writing graph with 1213 nodes, 910 edges
+2025-01-03 13:30:17,925 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:32:15,638 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:32:15,644 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:32:15,650 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:32:17,619 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:32:19,786 - lightrag - INFO - Writing graph with 1222 nodes, 920 edges
+2025-01-03 13:32:19,932 - lightrag - INFO - Inserting 2 vectors to chunks
+2025-01-03 13:33:23,677 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:33:23,686 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:33:23,690 - lightrag - INFO - Inserting 27 vectors to entities
+2025-01-03 13:33:25,233 - lightrag - INFO - Inserting 19 vectors to relationships
+2025-01-03 13:33:27,274 - lightrag - INFO - Writing graph with 1240 nodes, 938 edges
+2025-01-03 13:33:27,365 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:34:25,211 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:34:25,215 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:34:25,218 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:34:27,136 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 13:34:29,100 - lightrag - INFO - Writing graph with 1241 nodes, 943 edges
+2025-01-03 13:34:29,227 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:35:27,910 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:35:27,917 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:35:27,920 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 13:35:29,767 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:35:31,841 - lightrag - INFO - Writing graph with 1248 nodes, 951 edges
+2025-01-03 13:35:31,987 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:36:30,498 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:36:30,503 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:36:30,506 - lightrag - INFO - Inserting 18 vectors to entities
+2025-01-03 13:36:32,575 - lightrag - INFO - Inserting 5 vectors to relationships
+2025-01-03 13:36:34,431 - lightrag - INFO - Writing graph with 1252 nodes, 954 edges
+2025-01-03 13:36:34,562 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:38:00,510 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:38:00,517 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:38:00,522 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:38:02,232 - lightrag - INFO - Inserting 14 vectors to relationships
+2025-01-03 13:38:04,611 - lightrag - INFO - Writing graph with 1257 nodes, 968 edges
+2025-01-03 13:38:04,781 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:39:05,901 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:39:05,906 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:39:05,910 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 13:39:07,573 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:39:09,676 - lightrag - INFO - Writing graph with 1262 nodes, 976 edges
+2025-01-03 13:39:09,834 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:42:21,526 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:42:21,535 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:42:21,537 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 13:42:21,537 - lightrag - INFO - Inserting 27 vectors to entities
+2025-01-03 13:42:24,137 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 13:42:24,138 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 13:42:24,671 - lightrag - INFO - Writing graph with 1278 nodes, 976 edges
+2025-01-03 13:42:24,830 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:43:16,067 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:43:16,071 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:43:16,075 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:43:17,569 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:43:19,762 - lightrag - INFO - Writing graph with 1284 nodes, 983 edges
+2025-01-03 13:43:19,904 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:44:14,782 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:44:40,451 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:44:40,455 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 13:44:42,037 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:44:43,925 - lightrag - INFO - Writing graph with 1293 nodes, 990 edges
+2025-01-03 13:44:44,093 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:45:27,926 - lightrag - INFO - Logger initialized for working directory: ./dickens
+2025-01-03 13:45:27,929 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-03 13:45:27,930 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-03 13:45:27,931 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-03 13:45:27,935 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-03 13:45:39,609 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:45:39,616 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:45:39,620 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:45:41,463 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:45:43,734 - lightrag - INFO - Writing graph with 1297 nodes, 996 edges
+2025-01-03 13:45:43,887 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:47:00,578 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:47:00,586 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:47:00,589 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:47:02,780 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:47:04,840 - lightrag - INFO - Writing graph with 1301 nodes, 1002 edges
+2025-01-03 13:47:04,989 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:47:55,243 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:47:55,248 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:47:55,250 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 13:47:57,224 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:47:59,108 - lightrag - INFO - Writing graph with 1307 nodes, 1010 edges
+2025-01-03 13:47:59,261 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:48:39,235 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:48:39,244 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:48:39,247 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:48:40,894 - lightrag - INFO - Inserting 12 vectors to relationships
+2025-01-03 13:48:43,327 - lightrag - INFO - Writing graph with 1310 nodes, 1019 edges
+2025-01-03 13:48:43,466 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:48:52,683 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:48:52,684 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:48:52,686 - lightrag - WARNING - Didn't extract any entities and relationships, maybe your LLM is not working
+2025-01-03 13:48:52,697 - lightrag - ERROR - Failed to process document doc-8524de963f07201e5c086830d370797f: Failed to extract entities and relationships
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 401, in ainsert
+    raise Exception(
+Exception: Failed to extract entities and relationships
+
+2025-01-03 13:48:53,244 - lightrag - INFO - Writing graph with 1310 nodes, 1019 edges
+2025-01-03 13:48:53,394 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:49:22,474 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:49:32,001 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:49:32,002 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 13:49:32,002 - lightrag - INFO - Inserting 18 vectors to entities
+2025-01-03 13:49:33,693 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 13:49:33,694 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 13:49:34,221 - lightrag - INFO - Writing graph with 1323 nodes, 1019 edges
+2025-01-03 13:49:34,382 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:50:27,905 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:50:27,911 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:50:27,915 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 13:50:29,797 - lightrag - INFO - Inserting 7 vectors to relationships
+2025-01-03 13:50:31,940 - lightrag - INFO - Writing graph with 1328 nodes, 1025 edges
+2025-01-03 13:50:32,104 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:51:02,503 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:51:02,509 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:51:02,514 - lightrag - INFO - Inserting 9 vectors to entities
+2025-01-03 13:51:04,159 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 13:51:06,364 - lightrag - INFO - Writing graph with 1329 nodes, 1027 edges
+2025-01-03 13:51:06,515 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:52:10,231 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:52:10,239 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:52:10,243 - lightrag - INFO - Inserting 23 vectors to entities
+2025-01-03 13:52:12,314 - lightrag - INFO - Inserting 4 vectors to relationships
+2025-01-03 13:52:14,279 - lightrag - INFO - Writing graph with 1339 nodes, 1031 edges
+2025-01-03 13:52:14,433 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:53:05,059 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:53:05,064 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:53:05,068 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:53:07,082 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:53:09,366 - lightrag - INFO - Writing graph with 1346 nodes, 1038 edges
+2025-01-03 13:53:09,506 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:53:59,168 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:53:59,174 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:53:59,177 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:54:01,203 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:54:03,260 - lightrag - INFO - Writing graph with 1353 nodes, 1045 edges
+2025-01-03 13:54:03,421 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:55:15,692 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:55:28,959 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:55:28,961 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:55:30,743 - lightrag - INFO - Inserting 12 vectors to relationships
+2025-01-03 13:55:32,834 - lightrag - INFO - Writing graph with 1359 nodes, 1055 edges
+2025-01-03 13:55:32,989 - lightrag - INFO - Inserting 3 vectors to chunks
+2025-01-03 13:56:22,737 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:56:22,748 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:56:22,752 - lightrag - INFO - Inserting 36 vectors to entities
+2025-01-03 13:56:26,711 - lightrag - INFO - Inserting 21 vectors to relationships
+2025-01-03 13:56:29,510 - lightrag - INFO - Writing graph with 1381 nodes, 1076 edges
+2025-01-03 13:56:29,677 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:57:24,981 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:57:24,986 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:57:24,990 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 13:57:26,886 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 13:57:28,968 - lightrag - INFO - Writing graph with 1383 nodes, 1082 edges
+2025-01-03 13:57:29,093 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:58:36,041 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:58:36,055 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:58:36,059 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 13:58:38,281 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 13:58:40,474 - lightrag - INFO - Writing graph with 1392 nodes, 1090 edges
+2025-01-03 13:58:40,647 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 13:59:24,251 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 13:59:35,013 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 13:59:35,017 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 13:59:36,679 - lightrag - INFO - Inserting 12 vectors to relationships
+2025-01-03 13:59:38,942 - lightrag - INFO - Writing graph with 1394 nodes, 1100 edges
+2025-01-03 13:59:39,124 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:00:30,867 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:00:45,651 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:00:45,655 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 14:00:47,460 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 14:00:49,833 - lightrag - INFO - Writing graph with 1405 nodes, 1110 edges
+2025-01-03 14:00:50,033 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:02:14,837 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:02:14,844 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:02:14,846 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 14:02:16,623 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 14:02:18,946 - lightrag - INFO - Writing graph with 1412 nodes, 1120 edges
+2025-01-03 14:02:19,138 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:03:12,124 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:07:13,881 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:07:13,885 - lightrag - INFO - Inserting 15 vectors to entities
+2025-01-03 14:07:15,903 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 14:07:17,974 - lightrag - INFO - Writing graph with 1420 nodes, 1131 edges
+2025-01-03 14:07:18,117 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:07:56,668 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:07:56,676 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:07:56,678 - lightrag - INFO - Inserting 21 vectors to entities
+2025-01-03 14:07:58,520 - lightrag - INFO - Inserting 4 vectors to relationships
+2025-01-03 14:08:00,481 - lightrag - INFO - Writing graph with 1431 nodes, 1135 edges
+2025-01-03 14:08:00,654 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:08:43,651 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:08:54,347 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:08:54,350 - lightrag - INFO - Inserting 10 vectors to entities
+2025-01-03 14:08:55,899 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 14:08:58,233 - lightrag - INFO - Writing graph with 1436 nodes, 1141 edges
+2025-01-03 14:08:58,417 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:09:26,941 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:09:26,948 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:09:26,950 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 14:09:28,856 - lightrag - INFO - Inserting 1 vectors to relationships
+2025-01-03 14:09:30,503 - lightrag - INFO - Writing graph with 1439 nodes, 1142 edges
+2025-01-03 14:09:30,681 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:10:14,055 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:10:14,062 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:10:14,064 - lightrag - INFO - Inserting 8 vectors to entities
+2025-01-03 14:10:15,444 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 14:10:17,751 - lightrag - INFO - Writing graph with 1443 nodes, 1148 edges
+2025-01-03 14:10:17,915 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:11:23,269 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:11:32,062 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:11:32,065 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 14:11:33,866 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 14:11:36,201 - lightrag - INFO - Writing graph with 1449 nodes, 1155 edges
+2025-01-03 14:11:36,377 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:12:27,934 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:12:27,940 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:12:27,942 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 14:12:29,808 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 14:12:31,950 - lightrag - INFO - Writing graph with 1456 nodes, 1163 edges
+2025-01-03 14:12:32,150 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:13:09,110 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:13:22,573 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:13:22,575 - lightrag - INFO - Inserting 8 vectors to entities
+2025-01-03 14:13:24,233 - lightrag - INFO - Inserting 6 vectors to relationships
+2025-01-03 14:13:26,283 - lightrag - INFO - Writing graph with 1461 nodes, 1168 edges
+2025-01-03 14:13:26,454 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:14:01,591 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:14:01,605 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:14:01,609 - lightrag - INFO - Inserting 11 vectors to entities
+2025-01-03 14:14:03,537 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 14:14:05,770 - lightrag - INFO - Writing graph with 1468 nodes, 1176 edges
+2025-01-03 14:14:05,958 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:15:17,556 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:15:17,567 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:15:17,568 - lightrag - WARNING - Didn't extract any relationships
+2025-01-03 14:15:17,568 - lightrag - INFO - Inserting 31 vectors to entities
+2025-01-03 14:15:19,462 - lightrag - INFO - Inserting 0 vectors to relationships
+2025-01-03 14:15:19,463 - lightrag - WARNING - You insert an empty data to vector DB
+2025-01-03 14:15:20,092 - lightrag - INFO - Writing graph with 1493 nodes, 1176 edges
+2025-01-03 14:15:20,257 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:15:58,723 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:15:58,729 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:15:58,733 - lightrag - INFO - Inserting 13 vectors to entities
+2025-01-03 14:16:00,884 - lightrag - INFO - Inserting 11 vectors to relationships
+2025-01-03 14:16:03,397 - lightrag - INFO - Writing graph with 1499 nodes, 1186 edges
+2025-01-03 14:16:03,564 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:16:53,456 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:16:53,462 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:16:53,464 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 14:16:55,345 - lightrag - INFO - Inserting 8 vectors to relationships
+2025-01-03 14:16:57,586 - lightrag - INFO - Writing graph with 1507 nodes, 1193 edges
+2025-01-03 14:16:57,757 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:17:53,021 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:17:53,027 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:17:53,030 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-03 14:17:54,931 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 14:17:57,160 - lightrag - INFO - Writing graph with 1514 nodes, 1202 edges
+2025-01-03 14:17:57,317 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:18:42,249 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:18:42,254 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:18:42,258 - lightrag - INFO - Inserting 12 vectors to entities
+2025-01-03 14:18:44,543 - lightrag - INFO - Inserting 9 vectors to relationships
+2025-01-03 14:18:46,717 - lightrag - INFO - Writing graph with 1524 nodes, 1210 edges
+2025-01-03 14:18:46,898 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:19:36,381 - lightrag - INFO - Inserting entities into storage...
+2025-01-03 14:19:51,342 - lightrag - INFO - Inserting relationships into storage...
+2025-01-03 14:19:51,347 - lightrag - INFO - Inserting 17 vectors to entities
+2025-01-03 14:19:53,180 - lightrag - INFO - Inserting 10 vectors to relationships
+2025-01-03 14:19:55,847 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:19:56,017 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:20,452 - lightrag - ERROR - Failed to process document doc-77c380b8d01fe744dc6bd7d8a408cb15: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 392, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\tasks.py", line 605, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\operate.py", line 316, in _process_single_content
+    glean_result = await use_llm_func(continue_prompt, history_messages=history)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 87, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\chat\completions.py", line 1720, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:21,093 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:21,293 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:22,057 - lightrag - ERROR - Failed to process document doc-42c433148c1ea0ae315288c4ede8a8a5: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:22,706 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:22,891 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:23,652 - lightrag - ERROR - Failed to process document doc-addaf695a43c58f577843d4d417632a0: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:24,272 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:24,452 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:25,184 - lightrag - ERROR - Failed to process document doc-dd777aaca805aa3411897aaf5b386a2a: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:25,837 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:26,027 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:26,808 - lightrag - ERROR - Failed to process document doc-294c77d6ea0e484c8b6a3f9a425ce701: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:27,430 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:27,645 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:28,413 - lightrag - ERROR - Failed to process document doc-5382833ec72212af50f65658772c9add: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:29,097 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:29,295 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:30,033 - lightrag - ERROR - Failed to process document doc-197a763b4c32fe8c129426307cac11dd: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:30,701 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:30,886 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:31,652 - lightrag - ERROR - Failed to process document doc-9c64ba98776fa9a4848b70b8036ca945: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:32,306 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:32,484 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:33,274 - lightrag - ERROR - Failed to process document doc-ddd0a45394eb4fc93ca228ad7631a7d1: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:33,916 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:34,092 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:34,807 - lightrag - ERROR - Failed to process document doc-d4c0c0e252f68f3a61bf8640ce90a0aa: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:35,416 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:35,576 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:36,344 - lightrag - ERROR - Failed to process document doc-45c9723e55f743414010879388b561c0: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:36,980 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:37,170 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:37,891 - lightrag - ERROR - Failed to process document doc-965a1900cfd9dbd0f39dde1da592715e: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:38,533 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:38,699 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:39,490 - lightrag - ERROR - Failed to process document doc-ff9928fb3a0e270d1fe33c1c0c1b8f66: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:40,148 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:40,323 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:41,032 - lightrag - ERROR - Failed to process document doc-2307ebe3c5f63cdf33494c4783aaca57: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:41,656 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:41,830 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:42,585 - lightrag - ERROR - Failed to process document doc-395ab506d349641a55c172beba280454: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:43,246 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:43,425 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:44,158 - lightrag - ERROR - Failed to process document doc-287a766e6c6e4abbd84ada8ac9a44a53: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:44,798 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:44,974 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-03 14:20:45,738 - lightrag - ERROR - Failed to process document doc-d7a0fccd09d2d858abf2a1cc2c525186: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 432, in ainsert
+    raise e
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\lightrag.py", line 389, in ainsert
+    await self.chunks_vdb.upsert(chunks)
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 146, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\storage.py", line 138, in wrapped_task
+    result = await self.embedding_func(batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\utils.py", line 66, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\pault\documents\3. ai and machine learning\2. deep learning\1c. app\projects\lightrag\lightrag\llm.py", line 903, in openai_embedding
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_base_client.py", line 1557, in _request
+    self._platform = await asyncify(get_platform)()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\site-packages\openai\_utils\_sync.py", line 68, in wrapper
+    return await to_thread(function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\asyncio\base_events.py", line 829, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pault\anaconda3\envs\app_project\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+2025-01-03 14:20:46,409 - lightrag - INFO - Writing graph with 1531 nodes, 1217 edges
+2025-01-03 14:20:46,579 - lightrag - INFO - Inserting 1 vectors to chunks

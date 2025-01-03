@@ -246,7 +246,7 @@ class RunLightRAGChatbot:
                 raise ValueError("Invalid data_value for 'file' data_task. Must be a file path or list of file paths.")
 
         elif self.data_task == "url":
-            loader = URLDocumentLoader(base_url=self.data_value)
+            loader = URLDocumentLoader(url=self.data_value)
             self.docs = loader.load_from_urls()
 
         elif self.data_task == "github_repo":

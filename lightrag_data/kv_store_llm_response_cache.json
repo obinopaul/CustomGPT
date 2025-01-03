@@ -103,6 +103,46 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "Question: can you solve one question in the attached assingmnent"
+    },
+    "c5d89486fd36135c9a0caaa1b2948adc": {
+      "return": "Sure, here is a summary of your PhD assistantship offer:\n\nThe Data Science and Analytics Institute and the Graduate College of the University of Oklahoma offered you a Graduate Assistantship starting on January 13, 2025. Your responsibilities as a Graduate Assistant will involve a commitment of up to 20 hours per week under the direction of Dr. Talayeh Razzaghi. You will join the Ph.D. program in Data Science and Analytics, with the continuation subject to academic progress, job performance, and budgetary constraints.\n\nFinancially, this offer includes a monthly stipend of $2273. This assistantship qualifies as a Qualifying Graduate Assistantship (QGA) which means you will receive a tuition waiver that covers the hours required for your degree. This does not include fees, and you are referred to an online tool (https://www.ou.edu/bursar/tuition_fees/calculator) to estimate those. Also provided is medical insurance for you as an individual, though there are some restrictions on eligibility and you must be enrolled in a minimum of 5 credit hours in the fall and spring semesters.\n\nThere are some eligibility criteria that must be fulfilled related to Immigration (Form I-9) and your residency must be in Oklahoma or approved for remote work by OU Human Resources. Coverage for eligible dependents can be provided at your cost and would be payroll deducted from your paychecks between September and April.\n\nThe letter concludes by inviting you to join the University of Oklahoma, the Gallogly College of Engineering, and the Data Science and Analytics Institute. The University of Oklahoma looks forward to your acceptance and contribution to their programs. To accept the offer, you need to sign the document and return it by January 10, 2025. For any further questions, you are asked to contact Katelyn Scott-Grubb or Dr. Talayeh Razzaghi in the OU DSA.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Question: the attached document is my PhD assistantship offer. Can you summarise what it says?"
+    },
+    "3d785828c3b8ec8c4b3cbb9b17a28024": {
+      "return": "The documents provided do not contain specific information about being paid during the summer. The offered graduate assistantship at the University of Oklahoma outlined the stipend and benefits related to the position, indicating a monthly stipend of $2273 and mentioning that payments would be issued from September through April for health insurance costs. However, there's no explicit mention about summer payment or lack thereof. For complete information on this issue, it would be advisable to refer to the institution's rules or reach out to the institution directly.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Question: does it say anything about being paid in the summer?"
+    },
+    "1da6d4997fe2466598dcfe2d04a604ed": {
+      "return": "Mr. Paul Okafor's offer letter from the University of Oklahoma (OU) for the position of a Graduate Assistant in the Data Science and Analytics Institute was drafted on January 2nd, 2025, and it stipulates a monthly stipend of $2273. The monthly income would be subject to income tax, as indicated in the letter. However, while the letter outlined the requirements for medical coverage and tax obligations, it does not specify the exact tax rate.\n\nAs for tax considerations, it's important to note that the Internal Revenue Service (IRS) in the U.S. considers the Graduate College’s payment of Okafor's individual medical coverage a non-cash benefit, making it subject to income tax. This non-cash benefit tax appears on the monthly paychecks issued from September through April.\n\nTo figure out how much your after-tax income would be, you'd need to consult the current federal and state tax laws or use an online tax calculator. Tax laws change annually, and also vary by factors such as filing status (single, married, head of household, etc.), number of dependents, and other income considerations.\n\nNext, to calculate your biweekly pay, we would divide the monthly income by two. But this isn't always accurate because some months have more days than others. A more precise way to calculate biweekly pay is to multiply the monthly pay by 12 (for 12 months in a year), then divide by 26 (since there are 26 biweekly periods in a year). After calculating the gross biweekly pay, taxes and deductions applicable to every paycheck should also be considered, just like calculating the after-tax monthly income. \n\nTherefore, to get accurate figures on how much your biweekly after-tax stipend would be, I would advise checking with a tax professional or using an online paycheck calculator that allows for the input of relevant tax information. Be sure to consider the specific time period (2025) and location (State of Oklahoma), as tax rates may vary based on these factors.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Question: Ok, i am in the state of oklahoma, if i am being paid that salarym how much would it be after taxes? and also biweekly"
+    },
+    "b195571cc5c90a6e5eb9572eae9e62fc": {
+      "return": "I'm sorry, but the documents provided do not contain information about the percentage of income tax in Oklahoma.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Question: how many percent of income is tax in oklahoma?"
+    },
+    "ea81b9d2ffc906964688aeac902e29c5": {
+      "return": "I'm sorry, but the information you're asking for is not included in the provided documents. I don't have access to real-time data or resources beyond these documents, so I cannot provide current tax rates for Oklahoma. I recommend checking the most recent tax information on the official Oklahoma state government website or consult with a financial advisor for that information.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Question: go beyond the provided documents, how many percent of income is tax in oklahoma"
     }
   }
 }
