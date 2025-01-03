@@ -42,6 +42,14 @@ from lightrag.llm import ollama_embedding, ollama_model_complete
 from lightrag.llm import openai_complete_if_cache, openai_embedding
 from transformers import AutoModel, AutoTokenizer
 import asyncio
+from src.rag.document_loader import (
+    URLDocumentLoader,
+    FileDocumentLoader,
+    GitHubIssuesDocumentLoader,
+    GitHubRepoDocumentLoader,
+    ResearchPapersDocumentLoader
+)
+import logging
 # import nest_asyncio
 # import aiofiles
 
@@ -74,7 +82,7 @@ class RunLightRAGChatbot:
         data_task: Optional[str] = None,
         data_value: Optional[str] = None,
         openai_api_key: Optional[str] = None,
-        openai_embedding_model: Optional[str] = None,  # example is "text-embedding-3-large"
+        openai_embedding_model: Optional[str] = None,  # example is "text-embedding-3-small"
         huggingface_model_name: Optional[str] = None,
         huggingface_tokenizer_name: Optional[str] = None,
         ollama_embedding_model: Optional[str] = None,  # example is "nomic-embed-text"
@@ -104,7 +112,7 @@ class RunLightRAGChatbot:
         self.data_task = data_task
         self.data_value = data_value
         self.openai_api_key = openai_api_key if openai_api_key else os.getenv("OPENAI_API_KEY")
-        self.openai_embedding_model = openai_embedding_model if openai_embedding_model else "text-embedding-3-large"
+        self.openai_embedding_model = openai_embedding_model if openai_embedding_model else "text-embedding-3-small"
         self.huggingface_model_name = huggingface_model_name
         self.huggingface_tokenizer_name = huggingface_tokenizer_name
         self.ollama_embedding_model = ollama_embedding_model
@@ -121,36 +129,106 @@ class RunLightRAGChatbot:
 
         # Ensure the working directory exists
         os.makedirs(self.working_dir, exist_ok=True)
+
         
+    # def setup_data(self) -> None:
+    #     """
+    #     Validate data_type + data_value if needed, then use TextSplitter to create doc chunks.
+    #     For example: "file", "url", "github_repo", "github_issues", "research_papers", or raw "text".
+    #     """
+    #     logger.info("=== [RunChatbot] setup_data ===")
+        
+    #     # 1) Validate data (Optional)
+    #     # self.validator = DataValidator()
+    #     # if self.data_task and self.data_value:
+    #     #     try:
+    #     #         validated = self.validator.validate_input(
+    #     #             data_type=self.data_task,  # e.g. "github_repo_url"
+    #     #             data=self.data_value
+    #     #         )
+    #     #         logger.info(f"Data validated: {validated}")
+    #     #     except ValidationError as e:
+    #     #         logger.warning(f"Validation error: {e}")
+    #     # else:
+    #     #     logger.warning("No data task or data value provided, skipping validation.")
+
+    #     # 2) Split
+    #     self.splitter = TextSplitter(
+    #         splitter_type='recursive',
+    #         chunk_size=self.chunk_size,
+    #         chunk_overlap=self.chunk_overlap,
+    #     )
+
+    #     # We'll handle each data_task
+    #     # Handle each data_task
+    #     if self.data_task == "file":
+    #         if isinstance(self.data_value, list):
+    #             # If it's a list of file paths
+    #             file_paths = [path for path in self.data_value if os.path.isfile(path)]
+    #             if not file_paths:
+    #                 raise ValueError("No valid file paths provided in data_value.")
+    #             self.docs = self.splitter.split_file_documents(file_paths)
+    #         elif os.path.isfile(self.data_value):
+    #             # If it's a single file path
+    #             self.docs = self.splitter.split_file_documents([self.data_value])
+    #         else:
+    #             raise ValueError("Invalid data_value for 'file' data_task. Must be a file path or list of file paths.")
+
+                    
+
+    #     elif self.data_task == "url":
+    #         self.docs = self.splitter.split_url_documents(self.data_value)
+
+    #     elif self.data_task == "github_repo":
+    #         # data_value might be a single URL or a list
+    #         repo_urls = [self.data_value] if isinstance(self.data_value, str) else self.data_value
+    #         clone_dir = self.kwargs.get("clone_dir", "./cloned_repo")
+    #         self.docs = self.splitter.split_github_repo_documents(repo_urls=repo_urls, clone_dir=clone_dir)
+
+    #     elif self.data_task == "github_issues":
+    #         # data_value might be a single "owner/repo" or multiple
+    #         repos = [self.data_value] if isinstance(self.data_value, str) else self.data_value
+    #         access_token = self.kwargs.get("github_access_token", "")
+    #         self.docs = self.splitter.split_github_issues_documents(repos=repos, access_token=access_token)
+
+    #     elif self.data_task == "research_papers":
+    #         # data_value might be a query string
+    #         query_str = self.data_value
+    #         max_results = self.kwargs.get("max_results", 20)
+    #         sources = self.kwargs.get("sources", ["ieee", "elsevier", "arxiv"])
+    #         # ieee_api_key = self.kwargs.get("ieee_api_key", "")
+    #         # elsevier_api_key = self.kwargs.get("elsevier_api_key", "")
+    #         self.docs = self.splitter.split_research_papers_documents(
+    #             query=query_str,
+    #             max_results=max_results,
+    #             sources=sources,
+    #             ieee_api_key = ieee_api_key,
+    #             elsevier_api_key = elsevier_api_key
+    #         )
+
+    #     # elif self.data_task == "text":
+    #     #     # If the data_value is raw text
+    #     #     # or you could store them in a Document object
+    #     #     text_docs = [Document(page_content=self.data_value)]
+    #     #     self.docs = self.splitter.split_documents(text_docs)
+
+    #     else:
+    #         logger.info("No recognized data_task. If you only want a normal chat with no data ingestion, skip this.")
+    #         self.docs = []
+
+    #     logger.info(f"Total splitted docs: {len(self.docs)}")
+
+
     def setup_data(self) -> None:
         """
-        Validate data_type + data_value if needed, then use TextSplitter to create doc chunks.
-        For example: "file", "url", "github_repo", "github_issues", "research_papers", or raw "text".
+        Validate data_type + data_value if needed and load documents without splitting.
+        Handles various data_task inputs like "file", "url", "github_repo", "github_issues", "research_papers", or raw "text".
         """
-        logger.info("=== [RunChatbot] setup_data ===")
-        
-        # 1) Validate data (Optional)
-        # self.validator = DataValidator()
-        # if self.data_task and self.data_value:
-        #     try:
-        #         validated = self.validator.validate_input(
-        #             data_type=self.data_task,  # e.g. "github_repo_url"
-        #             data=self.data_value
-        #         )
-        #         logger.info(f"Data validated: {validated}")
-        #     except ValidationError as e:
-        #         logger.warning(f"Validation error: {e}")
-        # else:
-        #     logger.warning("No data task or data value provided, skipping validation.")
+        logger.info("=== [RunLightRAGChatbot] setup_data ===")
 
-        # 2) Split
-        self.splitter = TextSplitter(
-            splitter_type='recursive',
-            chunk_size=self.chunk_size,
-            chunk_overlap=self.chunk_overlap,
-        )
+        # Initialize document container
+        self.docs = []
 
-        # We'll handle each data_task
         # Handle each data_task
         if self.data_task == "file":
             if isinstance(self.data_value, list):
@@ -158,56 +236,57 @@ class RunLightRAGChatbot:
                 file_paths = [path for path in self.data_value if os.path.isfile(path)]
                 if not file_paths:
                     raise ValueError("No valid file paths provided in data_value.")
-                self.docs = self.splitter.split_file_documents(file_paths)
+                loader = FileDocumentLoader()
+                self.docs = loader.load_from_files(file_paths)
             elif os.path.isfile(self.data_value):
                 # If it's a single file path
-                self.docs = self.splitter.split_file_documents([self.data_value])
+                loader = FileDocumentLoader()
+                self.docs = loader.load_from_files([self.data_value])
             else:
                 raise ValueError("Invalid data_value for 'file' data_task. Must be a file path or list of file paths.")
 
-                    
-
         elif self.data_task == "url":
-            self.docs = self.splitter.split_url_documents(self.data_value)
+            loader = URLDocumentLoader(base_url=self.data_value)
+            self.docs = loader.load_from_urls()
 
         elif self.data_task == "github_repo":
             # data_value might be a single URL or a list
             repo_urls = [self.data_value] if isinstance(self.data_value, str) else self.data_value
             clone_dir = self.kwargs.get("clone_dir", "./cloned_repo")
-            self.docs = self.splitter.split_github_repo_documents(repo_urls=repo_urls, clone_dir=clone_dir)
+            loader = GitHubRepoDocumentLoader(repo_urls=repo_urls, clone_dir=clone_dir)
+            self.docs = loader.load_documents_as_dicts()
 
         elif self.data_task == "github_issues":
             # data_value might be a single "owner/repo" or multiple
             repos = [self.data_value] if isinstance(self.data_value, str) else self.data_value
             access_token = self.kwargs.get("github_access_token", "")
-            self.docs = self.splitter.split_github_issues_documents(repos=repos, access_token=access_token)
+            loader = GitHubIssuesDocumentLoader(access_token=access_token)
+            self.docs = loader.load_documents(repos=repos)
 
         elif self.data_task == "research_papers":
             # data_value might be a query string
             query_str = self.data_value
             max_results = self.kwargs.get("max_results", 20)
             sources = self.kwargs.get("sources", ["ieee", "elsevier", "arxiv"])
-            # ieee_api_key = self.kwargs.get("ieee_api_key", "")
-            # elsevier_api_key = self.kwargs.get("elsevier_api_key", "")
-            self.docs = self.splitter.split_research_papers_documents(
-                query=query_str,
-                max_results=max_results,
-                sources=sources,
-                ieee_api_key = self.ieee_api_key,
-                elsevier_api_key = self.elsevier_api_key
+            ieee_api_key = self.kwargs.get("ieee_api_key", "")
+            elsevier_api_key = self.kwargs.get("elsevier_api_key", "")
+            loader = ResearchPapersDocumentLoader(
+                ieee_api_key=ieee_api_key,
+                elsevier_api_key=elsevier_api_key,
             )
+            self.docs = loader.load_papers_as_dicts(query=query_str, max_results=max_results, sources=sources)
 
-        # elif self.data_task == "text":
-        #     # If the data_value is raw text
-        #     # or you could store them in a Document object
-        #     text_docs = [Document(page_content=self.data_value)]
-        #     self.docs = self.splitter.split_documents(text_docs)
+        elif self.data_task == "text":
+            # If the data_value is raw text, store it in a LangChain Document object
+            self.docs = [Document(page_content=self.data_value)]
 
         else:
             logger.info("No recognized data_task. If you only want a normal chat with no data ingestion, skip this.")
             self.docs = []
 
-        logger.info(f"Total splitted docs: {len(self.docs)}")
+        logger.info(f"Total documents loaded: {len(self.docs)}")
+
+
 
     def setup_lightrag(self) -> None:
         """
@@ -229,7 +308,7 @@ class RunLightRAGChatbot:
             async def openai_embedding_func(texts: list[str]):
                 return await openai_embedding(
                     texts,
-                    model="text-embedding-3-large",
+                    model="text-embedding-3-small",
                     api_key=self.openai_api_key,
                 )
 
@@ -350,17 +429,35 @@ class RunLightRAGChatbot:
         else:
             raise ValueError(f"Unsupported model type: {self.model_type}")
         
-        
+
+        # if not self.docs:
+        #     logger.warning("No documents found to insert into LightRAG.")
+        #     return
+    
         # # Insert documents into LightRAG
         # for doc in self.docs:
-        #     self.rag.insert(doc.page_content)
-        # logger.info("Documents inserted into LightRAG successfully.")
+        #     if isinstance(doc, Document) and hasattr(doc, "page_content"):
+        #         content = doc.page_content.strip()
+        #     elif isinstance(doc, str):
+        #         content = doc.strip()
+        #     else:
+        #         logger.warning(f"Skipping unsupported document format: {type(doc)}")
+        #         continue
+
+        #     if content:
+        #         try:
+        #             self.rag.insert(content)
+        #         except Exception as e:
+        #             logger.error(f"Error inserting document into LightRAG: {e}")
+
 
         if not self.docs:
             logger.warning("No documents found to insert into LightRAG.")
             return
-    
-        # Insert documents into LightRAG
+
+        # Collect all valid document contents into a list
+        document_contents = []
+
         for doc in self.docs:
             if isinstance(doc, Document) and hasattr(doc, "page_content"):
                 content = doc.page_content.strip()
@@ -371,11 +468,21 @@ class RunLightRAGChatbot:
                 continue
 
             if content:
-                try:
-                    self.rag.insert(content)
-                except Exception as e:
-                    logger.error(f"Error inserting document into LightRAG: {e}")
-            
+                document_contents.append(content)
+
+        # Insert all documents at once if the list is not empty
+        if document_contents:
+            try:
+                # Pass the list of strings to the insert function
+                self.rag.insert(document_contents)
+                logger.info(f"Successfully inserted {len(document_contents)} documents into LightRAG.")
+            except Exception as e:
+                logger.error(f"Error inserting documents into LightRAG: {e}")
+        else:
+            logger.warning("No valid document contents found to insert into LightRAG.")
+
+
+ 
     def chat(self, prompt: str, mode: str = "naive") -> str:
         """
         Query the LightRAG system.

@@ -177,7 +177,7 @@ class FileDocumentLoader:
                     docs = self._load_pdf(file_path)
                 elif file_extension in ['.docx', '.doc']:
                     docs = self._load_docx(file_path)
-                elif file_extension in ['.txt', '.md']:
+                elif file_extension in ['.txt', '.md', '.log', '.csv', '.tsv', '.rtf', '.yaml', '.json']:
                     docs = self._load_txt(file_path)
                 else:
                     logger.warning(f"Unsupported file type for file {file_path}. Skipping.")
@@ -228,6 +228,23 @@ class FileDocumentLoader:
             logger.error(f"Error loading DOCX {file_path}: {e}")
             return []
 
+    # def _load_txt(self, file_path: str) -> List[Document]:
+    #     """
+    #     Load a TXT file and return its content as Document objects.
+
+    #     :param file_path: Path to the TXT file.
+    #     :return: A list of Document objects.
+    #     """
+    #     loader = TextLoader(file_path)
+        
+    #     try:
+    #         docs = loader.load()
+    #         return docs
+    #     except Exception as e:
+    #         logger.error(f"Error loading TXT {file_path}: {e}")
+    #         return []
+
+
     def _load_txt(self, file_path: str) -> List[Document]:
         """
         Load a TXT file and return its content as Document objects.
@@ -235,10 +252,12 @@ class FileDocumentLoader:
         :param file_path: Path to the TXT file.
         :return: A list of Document objects.
         """
-        loader = TextLoader(file_path)
         try:
-            docs = loader.load()
-            return docs
+            with open(file_path, "r", encoding="utf-8") as file:
+                content = file.read()
+            # Wrap the content in a Document object
+            document = Document(page_content=content, metadata={"source": file_path})
+            return [document]
         except Exception as e:
             logger.error(f"Error loading TXT {file_path}: {e}")
             return []

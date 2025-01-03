@@ -12,6 +12,7 @@ groq
 ollama
 bs4
 unstructured
+python-magic-bin
 selenium
 docx2txt
 gitpython
@@ -29,3 +30,4 @@ pydantic
 langchain-community
 pymongo
 lightrag-hku
+streamlit_lottie

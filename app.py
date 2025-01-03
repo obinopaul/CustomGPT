@@ -11,6 +11,8 @@ import logging
 import time 
 from io import StringIO
 import shutil  # Import for folder cleanup
+import requests
+from streamlit_lottie import st_lottie
 
 # Load environment variables from .env file
 load_dotenv()
@@ -71,6 +73,130 @@ if "chatbot" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+# CSS Styling
+def apply_styles():
+    st.markdown("""
+    <style>
+        /* General Body Styling */
+        body {
+            background-color: #f2f2f2; /* Light grey background */
+            font-family: 'Arial', sans-serif;
+            color: black; /* Standard black text for contrast */
+        }
+
+        /* Sidebar Customization */
+        section[data-testid="stSidebar"] {
+            background-color: #e6e6e6; /* Light grey sidebar */
+            color: black; /* Black text for readability */
+        }
+        section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 {
+            color: #333; /* Dark grey for headings in the sidebar */
+        }
+
+        /* Input and Button Styles */
+        .stTextInput, .stTextArea, .stSelectbox, .stRadio {
+            background-color: #ffffff !important; /* White background for inputs */
+            border: 1px solid #ccc !important; /* Subtle border */
+            border-radius: 5px !important;
+            padding: 10px !important;
+            color: black; /* Black text */
+        }
+
+        .stButton button {
+            background-color: #4caf50 !important; /* Subtle green for buttons */
+            color: white !important;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .stButton button:hover {
+            background-color: #45a049 !important; /* Slightly darker green on hover */
+        }
+
+        /* Header Styling */
+        h1, h2, h3, h4 {
+            color: #333; /* Dark grey for headers */
+            font-weight: 600;
+        }
+
+        /* Chat Bubble Styles */
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .chat-bubble {
+            max-width: 80%;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .user-message {
+            background-color: #d9fdd3; /* Light green for user messages */
+            color: black;
+            align-self: flex-end;
+        }
+
+        .assistant-message {
+            background-color: #e6e6e6; /* Light grey for assistant messages */
+            color: black;
+            align-self: flex-start;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 50px;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Load Lottie Animations
+def load_lottie_url(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+# Apply styles
+apply_styles()
+
+# Add Lottie Animation
+def add_header_animation():
+    lottie_url = "https://assets9.lottiefiles.com/packages/lf20_ksu5dpjr.json"  # Clean chatbot animation
+    animation_data = load_lottie_url(lottie_url)
+    if animation_data:
+        st_lottie(animation_data, height=200, key="header_animation")
+
+add_header_animation()
+
+
+# Sidebar with Interactive Options
+st.sidebar.markdown("""
+<div style="
+    background-color: #585858; 
+    padding: 10px; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;">
+    <h2 style="color: white; font-family: 'Arial', sans-serif; margin: 0;">
+        <strong>CustomGPT</strong>! 🚀
+    </h2>
+</div>
+""", unsafe_allow_html=True)
+
+
+    
 # Logger Setup
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -46,5 +46,228 @@
     "created_at": "2025-01-02T20:13:03.031868",
     "updated_at": "2025-01-02T20:13:22.505337",
     "chunks_count": 1
+  },
+  "doc-768bae22e0a75094dfad8f3411802320": {
+    "content_summary": "Name: Zack Roach \nContact: 405-820-7910 \nRole: Sr. Director of Land  \nOrganization: Rausch Coleman H...",
+    "content_length": 151,
+    "status": "processed",
+    "created_at": "2025-01-03T02:36:09.694635",
+    "updated_at": "2025-01-03T02:36:28.073632",
+    "chunks_count": 1
+  },
+  "doc-3c42c878fe09e1792e27d97eff81b7a1": {
+    "content_summary": "Title: The Future of Intelligent Healthcare: A Systematic Analysis and Discussion on the Integration...",
+    "content_length": 1102,
+    "status": "processed",
+    "created_at": "2025-01-03T02:44:27.899450",
+    "updated_at": "2025-01-03T02:45:23.557350",
+    "chunks_count": 1
+  },
+  "doc-799e6187dbce567a1501543c23cb8716": {
+    "content_summary": "Title: NLP for Maternal Healthcare: Perspectives and Guiding Principles in the Age of LLMs\n\nAuthors:...",
+    "content_length": 1816,
+    "status": "processed",
+    "created_at": "2025-01-03T02:45:23.599620",
+    "updated_at": "2025-01-03T02:46:54.108075",
+    "chunks_count": 1
+  },
+  "doc-12a8ca6dbed2511139a35915b9f9143e": {
+    "content_summary": "Title: Developing Healthcare Language Model Embedding Spaces\n\nAuthors: Niall Taylor, Dan Schofield, ...",
+    "content_length": 1681,
+    "status": "processed",
+    "created_at": "2025-01-03T02:46:54.149283",
+    "updated_at": "2025-01-03T02:48:17.435559",
+    "chunks_count": 1
+  },
+  "doc-00a20072cec518c59f6dc4560ece9090": {
+    "content_summary": "Title: A Survey of Large Language Models for Healthcare: from Data, Technology, and Applications to ...",
+    "content_length": 2076,
+    "status": "processed",
+    "created_at": "2025-01-03T02:48:17.480165",
+    "updated_at": "2025-01-03T02:48:58.202358",
+    "chunks_count": 1
+  },
+  "doc-07aa59a7143ac23ee4e5f88ace78ace0": {
+    "content_summary": "Title: Large language models in healthcare and medical domain: A review\n\nAuthors: Zabir Al Nazi, Wei...",
+    "content_length": 1908,
+    "status": "processed",
+    "created_at": "2025-01-03T02:48:58.255922",
+    "updated_at": "2025-01-03T02:49:47.082942",
+    "chunks_count": 1
+  },
+  "doc-746a2e949136cf455bcbb45e15640c1b": {
+    "content_summary": "Title: Hybrid RAG-empowered Multi-modal LLM for Secure Data Management in Internet of Medical Things...",
+    "content_length": 1959,
+    "status": "processed",
+    "created_at": "2025-01-03T02:49:47.165477",
+    "updated_at": "2025-01-03T02:50:38.100109",
+    "chunks_count": 1
+  },
+  "doc-f71d71575b67372237c79f027531a812": {
+    "content_summary": "Title: AI as a Medical Ally: Evaluating ChatGPT's Usage and Impact in Indian Healthcare\n\nAuthors: Ar...",
+    "content_length": 1288,
+    "status": "processed",
+    "created_at": "2025-01-03T02:50:38.189625",
+    "updated_at": "2025-01-03T02:51:32.847487",
+    "chunks_count": 1
+  },
+  "doc-e4c2a113f1d3a4f01418e92c10b2f918": {
+    "content_summary": "Title: Enhancing Nursing and Elderly Care with Large Language Models: An AI-Driven Framework\n\nAuthor...",
+    "content_length": 783,
+    "status": "processed",
+    "created_at": "2025-01-03T02:51:32.938612",
+    "updated_at": "2025-01-03T02:52:27.915954",
+    "chunks_count": 1
+  },
+  "doc-4d11a4bc08b074c441bcb51f64b06c68": {
+    "content_summary": "Title: The Role of Language Models in Modern Healthcare: A Comprehensive Review\n\nAuthors: Amna Khali...",
+    "content_length": 948,
+    "status": "processed",
+    "created_at": "2025-01-03T02:52:28.016736",
+    "updated_at": "2025-01-03T02:54:02.124496",
+    "chunks_count": 1
+  },
+  "doc-292f82c8f02f7979158f415bd80b08fa": {
+    "content_summary": "Title: Autonomous Mobile Clinics: Empowering Affordable Anywhere Anytime Healthcare Access\n\nAuthors:...",
+    "content_length": 1350,
+    "status": "processed",
+    "created_at": "2025-01-03T02:54:02.240453",
+    "updated_at": "2025-01-03T02:54:48.724237",
+    "chunks_count": 1
+  },
+  "doc-efb627453d9e7b92041c1cd80ca462e7": {
+    "content_summary": "Title: Unveiling Performance Challenges of Large Language Models in Low-Resource Healthcare: A Demog...",
+    "content_length": 1029,
+    "status": "processed",
+    "created_at": "2025-01-03T02:54:48.845805",
+    "updated_at": "2025-01-03T02:55:18.481896",
+    "chunks_count": 1
+  },
+  "doc-4274827395862dc00e22130db721f004": {
+    "content_summary": "Title: Understanding the concerns and choices of public when using large language models for healthc...",
+    "content_length": 952,
+    "status": "processed",
+    "created_at": "2025-01-03T02:55:18.607448",
+    "updated_at": "2025-01-03T02:55:58.972336",
+    "chunks_count": 1
+  },
+  "doc-17857a680273de6a1b5d622606d046d5": {
+    "content_summary": "Title: Aloe: A Family of Fine-tuned Open Healthcare LLMs\n\nAuthors: Ashwin Kumar Gururajan, Enrique L...",
+    "content_length": 1783,
+    "status": "processed",
+    "created_at": "2025-01-03T02:55:59.072445",
+    "updated_at": "2025-01-03T02:57:27.049593",
+    "chunks_count": 1
+  },
+  "doc-b646ae28e259ac4d6938eeed118a3938": {
+    "content_summary": "Title: Creating Trustworthy LLMs: Dealing with Hallucinations in Healthcare AI\n\nAuthors: Muhammad Au...",
+    "content_length": 1033,
+    "status": "processed",
+    "created_at": "2025-01-03T02:57:27.156723",
+    "updated_at": "2025-01-03T02:58:01.302165",
+    "chunks_count": 1
+  },
+  "doc-1bca4db130670b433d98f151556ae2a8": {
+    "content_summary": "Title: Rapid Integration of LLMs in Healthcare Raises Ethical Concerns: An Investigation into Decept...",
+    "content_length": 1332,
+    "status": "processed",
+    "created_at": "2025-01-03T02:58:01.411861",
+    "updated_at": "2025-01-03T02:58:38.999981",
+    "chunks_count": 1
+  },
+  "doc-2aadcc3b57ec385ba885bee646eb8f19": {
+    "content_summary": "Title: HealthQ: Unveiling Questioning Capabilities of LLM Chains in Healthcare Conversations\n\nAuthor...",
+    "content_length": 1334,
+    "status": "processed",
+    "created_at": "2025-01-03T02:58:39.153094",
+    "updated_at": "2025-01-03T02:59:26.860302",
+    "chunks_count": 1
+  },
+  "doc-e22ae5b44344a4bf0b458c7cf8a975f4": {
+    "content_summary": "Title: Are Large Language Models True Healthcare Jacks-of-All-Trades? Benchmarking Across Health Pro...",
+    "content_length": 2090,
+    "status": "processed",
+    "created_at": "2025-01-03T02:59:27.007697",
+    "updated_at": "2025-01-03T03:00:49.260278",
+    "chunks_count": 1
+  },
+  "doc-6327688eb460934dc39564501475c8ec": {
+    "content_summary": "Title: Large Language Models Illuminate a Progressive Pathway to Artificial Healthcare Assistant: A ...",
+    "content_length": 1948,
+    "status": "processed",
+    "created_at": "2025-01-03T03:00:49.433912",
+    "updated_at": "2025-01-03T03:01:40.582977",
+    "chunks_count": 1
+  },
+  "doc-d44c81a7d86687e4ddc194cba22e8cd5": {
+    "content_summary": "Title: Leveraging Large Language Models for Patient Engagement: The Power of Conversational AI in Di...",
+    "content_length": 1743,
+    "status": "processed",
+    "created_at": "2025-01-03T03:01:40.743176",
+    "updated_at": "2025-01-03T03:02:35.085222",
+    "chunks_count": 1
+  },
+  "doc-6f7b612d7fc75191e42324c3b3d3dd8a": {
+    "content_summary": "Title: Healthcare Copilot: Eliciting the Power of General LLMs for Medical Consultation\n\nAuthors: Zh...",
+    "content_length": 1446,
+    "status": "processed",
+    "created_at": "2025-01-03T03:02:35.274736",
+    "updated_at": "2025-01-03T03:03:36.111760",
+    "chunks_count": 1
+  },
+  "doc-9cdeff9ce328faea27e0adb387c3473d": {
+    "content_summary": "Paul Okafor \n2900 Oak Tree Ave. Apt 3204-C,  \nNorman. \nOklahoma. \n73072 \n \nDear Hiring Committee, \nI...",
+    "content_length": 1240,
+    "status": "processed",
+    "created_at": "2025-01-03T05:13:46.484560",
+    "updated_at": "2025-01-03T05:15:08.162750",
+    "chunks_count": 1
+  },
+  "doc-edd22ae74dc8dd9bfc2c07d589111a26": {
+    "content_summary": "Directory structure:\n└── langchain-ai-langchain/\n    ├── README.md\n    ├── CITATION.cff\n    ├── LICE...",
+    "content_length": 36037584,
+    "status": "processing",
+    "created_at": "2025-01-03T06:20:05.785586",
+    "updated_at": "2025-01-03T06:20:05.787955"
+  },
+  "doc-fd8645be6d41a3adc71fe1b7f7e681fb": {
+    "content_summary": "2985\n(3107\n(3107\nIs Mill\nExpl\nBard\nChatc\nMail\nFiverr\nAli | P\nGrade\nFY24\nFall 20\nThe V\nDEI E\nWebi\nC\nf...",
+    "content_length": 689,
+    "status": "processed",
+    "created_at": "2025-01-03T06:25:34.871960",
+    "updated_at": "2025-01-03T06:26:14.275137",
+    "chunks_count": 1
+  },
+  "doc-13f6ea367d78bfb9591ab3e9b32f199d": {
+    "content_summary": "(c) (4 points) Summation of every variable xij over j that belongs to the set J and i that belongs t...",
+    "content_length": 610,
+    "status": "processed",
+    "created_at": "2025-01-03T06:29:26.732847",
+    "updated_at": "2025-01-03T06:30:16.435354",
+    "chunks_count": 1
+  },
+  "doc-34f48dc0df89619d6972bb68d0b5a66b": {
+    "content_summary": "The Greeks, just to keep in mind:\nFigure 1: Retrieved from https://www.instagram.com/joshi_physics_c...",
+    "content_length": 109,
+    "status": "processed",
+    "created_at": "2025-01-03T06:29:26.732847",
+    "updated_at": "2025-01-03T06:30:24.462944",
+    "chunks_count": 1
+  },
+  "doc-d87f29fe57f853d7e875e98f24f6f4b1": {
+    "content_summary": "ISE 4623/5023: Deterministic Systems Models / Systems Optimiza-\ntion University of Oklahoma School o...",
+    "content_length": 834,
+    "status": "processed",
+    "created_at": "2025-01-03T06:29:26.732847",
+    "updated_at": "2025-01-03T06:30:54.448015",
+    "chunks_count": 1
+  },
+  "doc-4b360189455a063d99146226a4a17468": {
+    "content_summary": "(b) (7 points)\n15x + 5y = 40\n3x − y = 8\nSolution:\ny = 3x − 8.\n30x − 40 = 40.\nx = 8/3, y= 0.\n(c) (7 p...",
+    "content_length": 1137,
+    "status": "processed",
+    "created_at": "2025-01-03T06:29:26.732847",
+    "updated_at": "2025-01-03T06:31:59.819863",
+    "chunks_count": 1
   }
 }
