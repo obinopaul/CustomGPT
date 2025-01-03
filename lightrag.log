@@ -1,0 +1,151 @@
+2025-01-02 18:15:17,186 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:15:17,188 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:15:17,189 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:15:17,190 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:15:17,192 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:15:17,194 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:15:17,196 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:15:17,197 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:15:17,198 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:15:17,202 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:24:39,892 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:24:39,894 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:24:39,895 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:24:39,896 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:24:39,899 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:24:39,901 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:24:39,902 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:24:39,903 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:24:39,904 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:24:39,907 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:24:52,074 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:44:15,830 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:44:15,833 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:44:15,833 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:44:15,834 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:44:15,837 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:44:15,840 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:44:15,842 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:44:15,842 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:44:15,843 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:44:15,847 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:44:26,223 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:45:03,255 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:45:48,676 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:46:12,573 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:46:12,575 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:46:12,576 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:46:12,577 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:46:12,580 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:46:12,583 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:46:12,586 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:46:12,587 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:46:12,587 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:46:12,591 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:46:23,005 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:55:17,397 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:55:17,400 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:55:17,401 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:55:17,402 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:55:17,404 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:55:17,408 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 18:55:17,410 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 18:55:17,410 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 18:55:17,412 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 18:55:17,413 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 18:55:30,589 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 18:55:52,991 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:06:46,813 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:06:46,814 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:06:46,814 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:06:46,815 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:06:46,819 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:06:46,821 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:06:46,823 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:06:46,824 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:06:46,825 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:06:46,828 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:07:20,560 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:07:50,407 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:08:27,443 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:08:27,445 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:08:27,446 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:08:27,447 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:08:27,449 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:08:27,451 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:08:27,453 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:08:27,454 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:08:27,455 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:08:27,457 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:08:38,166 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:14:15,416 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:14:15,418 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:14:15,419 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:14:15,419 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:14:15,423 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:14:15,426 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:14:15,429 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:14:15,430 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:14:15,430 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:14:15,433 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:14:26,103 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:31:59,253 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:31:59,255 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:31:59,255 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:31:59,256 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:31:59,259 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:31:59,262 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:31:59,263 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 19:31:59,264 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 19:31:59,265 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 19:31:59,268 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 19:31:59,268 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:31:59,270 - lightrag - INFO - Processing 1 new unique documents
+2025-01-02 19:32:00,529 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-02 19:33:01,457 - lightrag - INFO - Inserting entities into storage...
+2025-01-02 19:33:01,464 - lightrag - INFO - Inserting relationships into storage...
+2025-01-02 19:33:01,466 - lightrag - INFO - Inserting 14 vectors to entities
+2025-01-02 19:33:03,234 - lightrag - INFO - Inserting 12 vectors to relationships
+2025-01-02 19:33:05,637 - lightrag - INFO - Writing graph with 14 nodes, 12 edges
+2025-01-02 19:33:05,646 - lightrag - INFO - Processing 1 new unique documents
+2025-01-02 19:33:05,652 - lightrag - INFO - Inserting 1 vectors to chunks
+2025-01-02 19:33:22,996 - lightrag - INFO - Inserting entities into storage...
+2025-01-02 19:33:22,999 - lightrag - INFO - Inserting relationships into storage...
+2025-01-02 19:33:23,000 - lightrag - INFO - Inserting 4 vectors to entities
+2025-01-02 19:33:24,474 - lightrag - INFO - Inserting 3 vectors to relationships
+2025-01-02 19:33:25,685 - lightrag - INFO - Writing graph with 15 nodes, 13 edges
+2025-01-02 19:35:49,472 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 19:35:50,594 - lightrag - INFO - Truncate 2 to 2 chunks
+2025-01-02 19:39:50,329 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:39:50,332 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-02 19:39:50,333 - lightrag - INFO - Load KV full_docs with 2 data
+2025-01-02 19:39:50,334 - lightrag - INFO - Load KV text_chunks with 2 data
+2025-01-02 19:39:50,340 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 15 nodes, 13 edges
+2025-01-02 19:41:15,265 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:41:15,266 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-02 19:41:15,268 - lightrag - INFO - Load KV full_docs with 2 data
+2025-01-02 19:41:15,269 - lightrag - INFO - Load KV text_chunks with 2 data
+2025-01-02 19:41:15,271 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 15 nodes, 13 edges
+2025-01-02 19:52:51,348 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:52:51,351 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-02 19:52:51,352 - lightrag - INFO - Load KV full_docs with 2 data
+2025-01-02 19:52:51,356 - lightrag - INFO - Load KV text_chunks with 2 data
+2025-01-02 19:52:51,360 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 15 nodes, 13 edges
+2025-01-02 19:56:19,367 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 19:56:19,368 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-01-02 19:56:19,369 - lightrag - INFO - Load KV full_docs with 2 data
+2025-01-02 19:56:19,370 - lightrag - INFO - Load KV text_chunks with 2 data
+2025-01-02 19:56:19,373 - lightrag - INFO - Loaded graph from lightrag_data\graph_chunk_entity_relation.graphml with 15 nodes, 13 edges
+2025-01-02 20:10:14,722 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 20:10:14,723 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 20:10:14,724 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 20:10:14,726 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 20:10:14,729 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 20:10:14,730 - lightrag - INFO - Logger initialized for working directory: lightrag_data
+2025-01-02 20:10:14,732 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-01-02 20:10:14,734 - lightrag - INFO - Load KV full_docs with 0 data
+2025-01-02 20:10:14,735 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-01-02 20:10:14,737 - lightrag - INFO - Loaded document status storage with 0 records
+2025-01-02 20:10:14,738 - lightrag - INFO - Creating a new event loop in main thread.
+2025-01-02 20:10:14,740 - lightrag - INFO - Processing 1 new unique documents
+2025-01-02 20:10:14,752 - lightrag - INFO - Inserting 1 vectors to chunks

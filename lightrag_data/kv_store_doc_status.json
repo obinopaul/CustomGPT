@@ -1,0 +1,50 @@
+{
+  "doc-eedeb3a863bd155a0a6328eb91b29a23": {
+    "content_summary": "Title: embeddings/index/0/index.faiss\n\nHi, \r\n\r\nI'm trying to run the OpenScholar search API using th...",
+    "content_length": 926,
+    "status": "processed",
+    "created_at": "2025-01-02T20:10:14.740381",
+    "updated_at": "2025-01-02T20:11:13.949284",
+    "chunks_count": 1
+  },
+  "doc-929d3719c32a00b5697d213605da1fc8": {
+    "content_summary": "Title: Local usage requirements?\n\nHi! I would love to try running this framework, and to compare it ...",
+    "content_length": 707,
+    "status": "processed",
+    "created_at": "2025-01-02T20:11:13.976042",
+    "updated_at": "2025-01-02T20:11:54.964633",
+    "chunks_count": 1
+  },
+  "doc-a120747bd1499c7abf036d5339d3bc77": {
+    "content_summary": "Title: Can the author provide some examples for the input_file",
+    "content_length": 62,
+    "status": "processed",
+    "created_at": "2025-01-02T20:11:54.984865",
+    "updated_at": "2025-01-02T20:12:09.950051",
+    "chunks_count": 1
+  },
+  "doc-7d7b0e85a44a65f4986b68850d44ad73": {
+    "content_summary": "Title: search() in user_search_apis.py\n\nThanks for the great work. \r\n\r\nI noticed that the `search()`...",
+    "content_length": 314,
+    "status": "processed",
+    "created_at": "2025-01-02T20:12:09.970357",
+    "updated_at": "2025-01-02T20:12:29.935260",
+    "chunks_count": 1
+  },
+  "doc-8f6ffcf80fc6ee22155d5023b18c823d": {
+    "content_summary": "Title: How to identify training examples (y0 → F) &  (yt−1, ft → yt)\n\nThank you for sharing this wor...",
+    "content_length": 811,
+    "status": "processed",
+    "created_at": "2025-01-02T20:12:29.959315",
+    "updated_at": "2025-01-02T20:13:02.987666",
+    "chunks_count": 1
+  },
+  "doc-b488c3dbb955edb9264cc65ce80e8145": {
+    "content_summary": "Title: OpenScholar_Train_Data URL return 404\n\nHi. It's great work.\r\n\r\nHowever, I can not find datase...",
+    "content_length": 217,
+    "status": "processed",
+    "created_at": "2025-01-02T20:13:03.031868",
+    "updated_at": "2025-01-02T20:13:22.505337",
+    "chunks_count": 1
+  }
+}

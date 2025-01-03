@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;SERVE_PES2O.PY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"serve_pes2o.py is a file in the 'retriever/api/' directory of OpenScholar. It appears to be the code the author is trying to run."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;RETRIEVER/API/SERVE_PES2O.PY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"retriever/api/serve_pes2o.py is the code file in the 'api' directory under 'retriever' that the author is trying to execute."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;EMBEDDINGS/INDEX/0/INDEX.FAISS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"embeddings/index/0/index.faiss is the specified file path where the system is looking for the FAISS index file. The file does not exist in this location causing an error."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;FAISS INDEX&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"FAISS index is a database file the system is trying to load and access but is encountering an error. It's expected to be located at `embeddings/index/0/index.faiss`."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;OPENSCHOLAR-DATASTORE-V3&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"OpenScholar-DataStore-V3 is a dataset available on Huggingface that the author has utilized."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;OPENSCHOLAR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"OpenScholar is an open-source project that the author is trying to use, specifically the search API."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;OPENSCHOLAR SEARCH API&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"OpenScholar search API is the Application Programming Interface of OpenScholar the author is trying to run."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;EMBEDDINGS FILES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Embeddings files are data files indicated by the pattern: passages_*.pkl. Author successfully downloaded these from Huggingface."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;/ZHUMINJUN/OPENSCHOLAR/EMBEDDINGS/INDEX/0/INDEX.FAISS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"/zhuminjun/OpenScholar/embeddings/index/0/index.faiss is a file path mentioned in the error message where the FAISS index file was not found."</data>
+  <data key="d2">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;HUGGINGFACE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"HuggingFace is a company that provides a platform for sharing datasets used in Natural Language Processing."&lt;SEP&gt;"Huggingface is a platform from where the author has downloaded the embeddings files (passages_*.pkl) for use with the OpenScholar."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d&lt;SEP&gt;chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</node>
+<node id="&quot;SEMANTIC SCHOLAR SEARCH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Semantic scholar search is a retrieval method used within the context of the framework's operation."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;NEW PROJECT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Setting up a new project refers to the process of initializing the framework for utilization."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;100GB FREE SSD STORAGE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"100GB free SSD storage refers to the amount of solid-state drive storage that the user has available for data storage."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;STEM RAG TOOLS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"STEM RAG tools are a type of software tools related to the fields of science, technology, engineering, and mathematics."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;64 GB RAM&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"64 GB RAM is the amount of random access memory available on a user's local system for computation."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;LOCAL USAGE REQUIREMENTS?&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Local usage requirements? refers to the inquiry about the possibility of running the framework locally with limited local compute and storage."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;~45M PAPERS + INDEXING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"~45M papers + indexing refers to the scale of data that the retrieval framework can handle."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;PES2O DATASTORE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The peS2o datastore appears to be a large data storage system that the user is hesitant to set up due to its size."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;12 GB 4080 GPU&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"12 GB 4080 GPU refers to the graphics processing unit with 12 GB memory capacity the user has available for computation."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;FRAMEWORK&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Framework mentioned is a tool that is being compared to other STEM RAG tools. It seems to require a substantial amount of compute and storage resources."</data>
+  <data key="d2">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</node>
+<node id="&quot;AUTHOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Author is a term used to indicate the creator or writer of a document or work."</data>
+  <data key="d2">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</node>
+<node id="&quot;EXAMPLES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Examples are specific cases or instances used to illustrate a concept or idea."</data>
+  <data key="d2">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</node>
+<node id="&quot;TITLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Title refers to the topic or subject of a document or work."</data>
+  <data key="d2">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</node>
+<node id="&quot;INPUT_FILE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Input_File refers to a file that delivers information to the system."</data>
+  <data key="d2">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</node>
+<node id="&quot;USER_SEARCH_APIS.PY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"user_search_apis.py is a Python file that includes the `search_google_non_restricted()` function."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;IMPORT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The act of importing or calling in a specific function/method, which is currently missing for the `search()` method."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;LINE 280&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The specific line in the `user_search_apis.py` file where the `search()` method is being called."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;SEARCH_GOOGLE_NON_RESTRICTED()&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"search_google_non_restricted() is a function in user_search_apis.py that utilizes the `search()` method."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;PYTHON&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The high-level interpreted programming language used for developing the `user_search_apis.py` file."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;SEARCH()&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"search() is a method used in the code for the function `search_google_non_restricted()` but its import location is unclear."</data>
+  <data key="d2">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</node>
+<node id="&quot;FEEDBACK INCORPORATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"'Feedback Incorporation' is one of three types of training data, denoted as (yt−1, ft → yt) in the text."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;HUGGINGFACE DATASET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Huggingface dataset is the specific dataset the User is reviewing to understand the different types of training data."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;USER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual who is seeking assistance in accessing a dataset from a URL."&lt;SEP&gt;"The User is the individual asking questions to check their understanding of the training data in the referenced dataset."</data>
+  <data key="d2">chunk-b488c3dbb955edb9264cc65ce80e8145&lt;SEP&gt;chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;TRAINING EXAMPLES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Training Examples refers to data samples utilized in the training phase of a machine learning process."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;OPENSCHOLAR TRAINING DATA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"OpenScholar Training Data refers to a specific dataset available on HuggingFace."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;FEEDBACK GENERATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Feedback Generation is one of three types of training data, denoted as (y0 → F) in the text."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;SYNTHETIC PIPELINE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Synthetic Pipeline is the process by which different types of training data are generated."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;DATA MIXING AND TRAINING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Data Mixing and Training refers to the creation of different types of training data via a synthetic pipeline."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;ANSWER GENERATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Answer Generation is one of three types of training data, denoted as (x → y) in the text."</data>
+  <data key="d2">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</node>
+<node id="&quot;HUGGINGFACE.CO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"HuggingFace.co is a platform referenced in the query for containing certain dataset."</data>
+  <data key="d2">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</node>
+<node id="&quot;TITLE: OPENSCHOLAR_TRAIN_DATA URL RETURN 404&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The title is referring to an incident where the URL OpenScholar_Train_Data returned an error of 404."</data>
+  <data key="d2">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</node>
+<node id="&quot;OPENSCHOLAR_TRAIN_DATA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"OpenScholar_Train_Data is a URL destination that currently returns a 404 error."</data>
+  <data key="d2">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</node>
+<edge source="&quot;SERVE_PES2O.PY&quot;" target="&quot;FAISS INDEX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The serve_pes2o.py code in OpenScholar attempts to load the FAISS index, but encounters an error due to the file's absence."</data>
+  <data key="d5">"code execution, system configuration"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;RETRIEVER/API/SERVE_PES2O.PY&quot;" target="&quot;/ZHUMINJUN/OPENSCHOLAR/EMBEDDINGS/INDEX/0/INDEX.FAISS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"retriever/api/serve_pes2o.py is the code file wherein the FAISS index is attempted to load from '/zhuminjun/OpenScholar/embeddings/index/0/index.faiss', causing an error due to the file's absence."</data>
+  <data key="d5">"code execution, system configuration"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;EMBEDDINGS/INDEX/0/INDEX.FAISS&quot;" target="&quot;OPENSCHOLAR SEARCH API&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"OpenScholar search API makes a request to load the FAISS index file at 'embeddings/index/0/index.faiss', which results in an error."</data>
+  <data key="d5">"code execution, system configuration"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;FAISS INDEX&quot;" target="&quot;OPENSCHOLAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"FAISS index is a required file for running the OpenScholar search API, specifically the serve_pes2o.py file."</data>
+  <data key="d5">"code execution, system configuration"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;OPENSCHOLAR&quot;" target="&quot;HUGGINGFACE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"OpenScholar's dataset (OpenScholar-DataStore-V3) and embeddings files are available on HuggingFace for download and use."</data>
+  <data key="d5">"data sourcing, software utility"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;EMBEDDINGS FILES&quot;" target="&quot;HUGGINGFACE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The embeddings files that are required by OpenScholar were downloaded by the author from Huggingface."</data>
+  <data key="d5">"data sourcing, software utility"</data>
+  <data key="d6">chunk-eedeb3a863bd155a0a6328eb91b29a23</data>
+</edge>
+<edge source="&quot;HUGGINGFACE&quot;" target="&quot;OPENSCHOLAR TRAINING DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"HuggingFace provides the platform where the OpenScholar Training Data can be accessed."</data>
+  <data key="d5">"data access, data provider"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;SEMANTIC SCHOLAR SEARCH&quot;" target="&quot;LOCAL USAGE REQUIREMENTS?&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The inquiry for local usage requirements includes a potential use of Semantic scholar search as a retrieval method."</data>
+  <data key="d5">"feasibility, auxiliary tool"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;NEW PROJECT&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Setting up a new project is related to the implementation and operation of the Framework."</data>
+  <data key="d5">"implementation, operation"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;100GB FREE SSD STORAGE&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"100GB free SSD storage is a hardware resource that can affect the storage capacity of the Framework."</data>
+  <data key="d5">"hardware resource, storage capacity"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;64 GB RAM&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"64 GB RAM is a hardware resource that can affect the operation of the Framework."</data>
+  <data key="d5">"hardware resource, computation"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;LOCAL USAGE REQUIREMENTS?&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Inquiry about local usage requirements is directed towards understanding the feasibility of running the Framework locally."</data>
+  <data key="d5">"feasibility, resource requirements"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;PES2O DATASTORE&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The Framework is mentioned in relation to the large peS2o datastore, with the questioner expressing hesitance to set it up due to its size."</data>
+  <data key="d5">"resource requirements, alternative tool"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;12 GB 4080 GPU&quot;" target="&quot;FRAMEWORK&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"12 GB 4080 GPU is a hardware resource that could potentially be significant for the implementation and operation of the Framework."</data>
+  <data key="d5">"hardware resource, computation"</data>
+  <data key="d6">chunk-929d3719c32a00b5697d213605da1fc8</data>
+</edge>
+<edge source="&quot;AUTHOR&quot;" target="&quot;INPUT_FILE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The examples are requested for the input_file, tying the author to the input_file through the act of providing information."</data>
+  <data key="d5">"data provision, associated work"</data>
+  <data key="d6">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</edge>
+<edge source="&quot;AUTHOR&quot;" target="&quot;EXAMPLES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The author is asked to provide examples, indicating a connection through the act of illustration."</data>
+  <data key="d5">"illustration, provision"</data>
+  <data key="d6">chunk-a120747bd1499c7abf036d5339d3bc77</data>
+</edge>
+<edge source="&quot;USER_SEARCH_APIS.PY&quot;" target="&quot;PYTHON&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The user_search_apis.py file is developed using the Python programming language."</data>
+  <data key="d5">"code language, file type"</data>
+  <data key="d6">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</edge>
+<edge source="&quot;USER_SEARCH_APIS.PY&quot;" target="&quot;SEARCH_GOOGLE_NON_RESTRICTED()&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The `search_google_non_restricted()` function is defined within the user_search_apis.py file."</data>
+  <data key="d5">"function location, python file"</data>
+  <data key="d6">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</edge>
+<edge source="&quot;IMPORT&quot;" target="&quot;SEARCH()&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The `search()` function is missing its import statement, causing clarity issues."</data>
+  <data key="d5">"method import, code clarity"</data>
+  <data key="d6">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</edge>
+<edge source="&quot;LINE 280&quot;" target="&quot;SEARCH()&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The `search()` method is defined at Line 280 in the user_search_apis.py file."</data>
+  <data key="d5">"code location, python file"</data>
+  <data key="d6">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</edge>
+<edge source="&quot;SEARCH_GOOGLE_NON_RESTRICTED()&quot;" target="&quot;SEARCH()&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The `search()` method is used within the `search_google_non_restricted()` function."</data>
+  <data key="d5">"method usage, function definition"</data>
+  <data key="d6">chunk-7d7b0e85a44a65f4986b68850d44ad73</data>
+</edge>
+<edge source="&quot;FEEDBACK INCORPORATION&quot;" target="&quot;TRAINING EXAMPLES&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Feedback Incorporation is one type of Training Example that the individual seeks to find in the dataset."</data>
+  <data key="d5">"data search, training data"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;FEEDBACK INCORPORATION&quot;" target="&quot;HUGGINGFACE DATASET&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"'Feedback Incorporation' samples might be part of the data available in the Huggingface Dataset, as per user's interest."</data>
+  <data key="d5">"data sample,data interest"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;HUGGINGFACE DATASET&quot;" target="&quot;FEEDBACK GENERATION&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"'Feedback Generation' samples might be part of the data available in the Huggingface Dataset, as per user's interest."</data>
+  <data key="d5">"data sample,data interest"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;HUGGINGFACE DATASET&quot;" target="&quot;USER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The User is analyzing the Huggingface Dataset to identify the types of training data."</data>
+  <data key="d5">"data analysis,research"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;HUGGINGFACE DATASET&quot;" target="&quot;ANSWER GENERATION&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"'Answer Generation' samples are part of the data available in the Huggingface Dataset."</data>
+  <data key="d5">"data sample,data availability"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;DATA MIXING AND TRAINING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The User is trying to understand the 'Data Mixing And Training' process described in the paper."</data>
+  <data key="d5">"understanding,data analysis"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;HUGGINGFACE.CO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The user is seeking a correct URL on the platform HuggingFace.co."</data>
+  <data key="d5">"searching for solution"</data>
+  <data key="d6">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;OPENSCHOLAR_TRAIN_DATA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The user is unable to access the OpenScholar_Train_Data due to a 404 error."</data>
+  <data key="d5">"access issue"</data>
+  <data key="d6">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</edge>
+<edge source="&quot;TRAINING EXAMPLES&quot;" target="&quot;FEEDBACK GENERATION&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Feedback Generation is one type of Training Example that the individual is interested to find in the dataset."</data>
+  <data key="d5">"data search, training data"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;TRAINING EXAMPLES&quot;" target="&quot;ANSWER GENERATION&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Answer Generation is one type of Training Example as observed in the dataset."</data>
+  <data key="d5">"dataset analysis, training data"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;SYNTHETIC PIPELINE&quot;" target="&quot;DATA MIXING AND TRAINING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Synthetic Pipeline is the process used in 'Data Mixing And Training' to generate different types of training data."</data>
+  <data key="d5">"data generation,process"</data>
+  <data key="d6">chunk-8f6ffcf80fc6ee22155d5023b18c823d</data>
+</edge>
+<edge source="&quot;HUGGINGFACE.CO&quot;" target="&quot;OPENSCHOLAR_TRAIN_DATA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"OpenScholar_Train_Data link that's supposed to be on HuggingFace.co currently returns a 404 error."</data>
+  <data key="d5">"hyperlink failure"</data>
+  <data key="d6">chunk-b488c3dbb955edb9264cc65ce80e8145</data>
+</edge>
+</graph></graphml>

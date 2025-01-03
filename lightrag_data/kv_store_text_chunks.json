@@ -1,0 +1,38 @@
+{
+  "chunk-eedeb3a863bd155a0a6328eb91b29a23": {
+    "tokens": 214,
+    "content": "Title: embeddings/index/0/index.faiss\n\nHi, \r\n\r\nI'm trying to run the OpenScholar search API using the code in `retriever/api/serve_pes2o.py`. I've successfully set up the environment and can see the embeddings files (passages_*.pkl) in the embeddings directory. I've downloaded the embeddings from huggingface (https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/tree/main/embeddings).\r\n\r\nHowever, I'm encountering an error when the system tries to load the FAISS index. The configuration file indicates that the system is looking for FAISS index files at `embeddings/index/0/index.faiss`:\r\n\r\n failed: could not open /zhuminjun/OpenScholar/embeddings/index/0/index.faiss for reading: No such file or directory\r\n\r\nThank you for your help!\r\n\r\nEnvironment:\r\n- Following main branch of OpenScholar\r\n- Have embeddings files (passages_*.pkl) downloaded from huggingface\r\n- Running serve_pes2o.py from retriever/api/",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-eedeb3a863bd155a0a6328eb91b29a23"
+  },
+  "chunk-929d3719c32a00b5697d213605da1fc8": {
+    "tokens": 160,
+    "content": "Title: Local usage requirements?\n\nHi! I would love to try running this framework, and to compare it to other STEM RAG tools.\r\n I have limited local compute and storage (~ 64 GB RAM, < 100GB free SSD storage, 12 GB 4080 GPU) - given that, will the framework run locally using just the semantic scholar search for retrieval, or is the use of the entire retrieval framework (~45M papers + indexing) unavoidable? I want to try running just it and some of the sources, or even just the few documents retrieved by search, as a lightweight comparison. \r\n(I would rather not try setting up a new project, then find that it's mandatory to use the huge peS2o datastore +- if I can't even run it).\r\n\r\nThanks very much!",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-929d3719c32a00b5697d213605da1fc8"
+  },
+  "chunk-a120747bd1499c7abf036d5339d3bc77": {
+    "tokens": 12,
+    "content": "Title: Can the author provide some examples for the input_file",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a120747bd1499c7abf036d5339d3bc77"
+  },
+  "chunk-7d7b0e85a44a65f4986b68850d44ad73": {
+    "tokens": 73,
+    "content": "Title: search() in user_search_apis.py\n\nThanks for the great work. \r\n\r\nI noticed that the `search()` method (line 280) used in the `search_google_non_restricted()` function in user_search_apis.py seems to be missing its import. Could you kindly clarify which method is being used and where it’s defined?\r\n\r\nThanks!",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7d7b0e85a44a65f4986b68850d44ad73"
+  },
+  "chunk-8f6ffcf80fc6ee22155d5023b18c823d": {
+    "tokens": 194,
+    "content": "Title: How to identify training examples (y0 → F) &  (yt−1, ft → yt)\n\nThank you for sharing this work. My questions are just to check my own understanding of the referenced datasets.\r\n\r\nIn the paper it mentions\r\n\r\n**Data mixing and training.** From this synthetic pipeline, we generate three types of training\r\ndata: answer generation (x → y), feedback generation (y0 → F), and feedback incorporation\r\n(yt−1, ft → yt).\r\n\r\n--\r\nAre these three types of data available in https://huggingface.co/datasets/OpenScholar/OS_Train_Data ?\r\nCan you recommend a way to analyse the dataset to identify which of these types a sample belongs to?\r\nI've manually reviewed a low number; and they have been answer generation (x → y). \r\n\r\nI would be interested in finding training examples for (y0 → F) &  (yt−1, ft → yt)\r\n\r\nThanks",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8f6ffcf80fc6ee22155d5023b18c823d"
+  },
+  "chunk-b488c3dbb955edb9264cc65ce80e8145": {
+    "tokens": 50,
+    "content": "Title: OpenScholar_Train_Data URL return 404\n\nHi. It's great work.\r\n\r\nHowever, I can not find dataset in\r\n\r\nhttps://huggingface.co/OpenScholar/OpenScholar_Train_Data\r\n\r\nCould you kindly provide correct URL.\r\n\r\nThanks,",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b488c3dbb955edb9264cc65ce80e8145"
+  }
+}

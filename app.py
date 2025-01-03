@@ -85,35 +85,71 @@ def initialize_chatbot(
     llama_model_path=None,
     huggingface_model=None,
     embedding_type="openai",
+    rag_type = "LightRAG",  # New parameter to toggle between frameworks
+    ollama_embedding_model = None
 ):
     
     if model_type is None:
         raise ValueError("Model type is required but not provided.")
     if model_type == "openai" and openai_model is None:
         raise ValueError("OpenAI model is required but not provided.")
+    if not data_task or not data_value:
+        rag_type = "LangChain"  # Default to LangChain if no RAG task is provided
     
-    # """Initialize or reinitialize the chatbot instance."""
-    st.session_state.chatbot = RunChatbot(
-        model_type=model_type,
-        api_key=os.getenv("OPENAI_API_KEY"),
-        use_rag=bool(data_task),
-        data_task=data_task,
-        data_value=data_value,
-        vector_store_type=vector_store_type,
-        embedding_type=embedding_type,
-        temperature=0.7,
-        github_access_token=os.getenv("GITHUB_PERSONAL_TOKEN"),
-        ieee_api_key=os.getenv("IEEE_API_KEY"),
-        elsevier_api_key = os.getenv('ELSEVIER_API_KEY'),
-        pinecone_api_key=os.getenv("PINECONE_API_KEY"),
-        huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY'),
-        model=openai_model,
-        model_path=llama_model_path,
-        model_name=huggingface_model,
-    )
-    st.session_state.chatbot.setup_data()
-    st.session_state.chatbot.setup_vector_store()
-    st.session_state.chatbot.setup_llm_pipeline()
+    if rag_type == "LightRAG":
+        # Use the LightRAG-based framework
+        from src.run_lightrag_pipeline import RunLightRAGChatbot  # Assuming a separate class for LightRAG
+
+        st.session_state.chatbot = RunLightRAGChatbot(
+            model_type=model_category.lower(),  # Use the provided model category
+            working_dir="lightrag_data",  # Directory for LightRAG working files
+            openai_model=openai_model,
+            openai_api_key=os.getenv("OPENAI_API_KEY"),
+            huggingface_model_name=huggingface_model,
+            huggingface_tokenizer_name=huggingface_model,  # Default to model name
+            ollama_model_name=llama_model_path,  # Assuming Ollama model shares a similar name structure
+            ollama_host="http://localhost:11434",  # Example Ollama host; adjust as needed
+            ollama_embedding_model=ollama_embedding_model,  # Use the provided embedding type
+            data_task=data_task,
+            data_value=data_value,
+
+            github_access_token=os.getenv("GITHUB_PERSONAL_TOKEN"),
+            ieee_api_key=os.getenv("IEEE_API_KEY"),
+            elsevier_api_key = os.getenv('ELSEVIER_API_KEY'),
+            pinecone_api_key=os.getenv("PINECONE_API_KEY"),
+            huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY'),
+        )
+
+        # Setup LightRAG components
+        st.session_state.chatbot.setup_data()
+        st.session_state.chatbot.setup_lightrag()
+    elif rag_type == "LangChain":
+        
+        # Use the initial RunChatbot-based framework
+        from src.run_rag_pipeline import RunChatbot
+                
+        # """Initialize or reinitialize the chatbot instance."""
+        st.session_state.chatbot = RunChatbot(
+            model_type=model_type,
+            api_key=os.getenv("OPENAI_API_KEY"),
+            use_rag=bool(data_task),
+            data_task=data_task,
+            data_value=data_value,
+            vector_store_type=vector_store_type,
+            embedding_type=embedding_type,
+            temperature=0.7,
+            github_access_token=os.getenv("GITHUB_PERSONAL_TOKEN"),
+            ieee_api_key=os.getenv("IEEE_API_KEY"),
+            elsevier_api_key = os.getenv('ELSEVIER_API_KEY'),
+            pinecone_api_key=os.getenv("PINECONE_API_KEY"),
+            huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY'),
+            model=openai_model,
+            model_path=llama_model_path,
+            model_name=huggingface_model,
+        )
+        st.session_state.chatbot.setup_data()
+        st.session_state.chatbot.setup_vector_store()
+        st.session_state.chatbot.setup_llm_pipeline()
 
 
 def save_uploaded_files(uploaded_files):
@@ -188,6 +224,7 @@ openai_model = None
 huggingface_model_path = None
 ollama_model_path = None
 model_ready = False  # Flag to confirm model readiness
+rag_type = None
 
 # Model Selection
 if model_category == "OpenAI":
@@ -232,10 +269,36 @@ elif model_category == "Ollama":
 
 # Perform RAG or Initialize Model Button
 if (data_task and data_value) or model_ready:  # Ensure RAG or Model input is ready
+    rag_type = st.sidebar.selectbox(
+        "Choose RAG Framework:",
+        ["LangChain", "LightRAG"],
+        help="Select the framework for Retrieval-Augmented Generation."
+    )
+    # Subcategory for LightRAG Modes
+    light_rag_mode = None
+    if rag_type == "LightRAG":
+        with st.sidebar.expander("Configure LightRAG Mode", expanded=False):
+            st.markdown(
+                "<small style='color: gray;'>Select a mode for LightRAG query execution:</small>",
+                unsafe_allow_html=True
+            )
+            light_rag_mode = st.selectbox(
+                "LightRAG Mode:",
+                ["naive", "local", "global", "hybrid", "mix"],
+                help=(
+                    "Modes available for LightRAG:\n"
+                    "- naive: Basic retrieval\n"
+                    "- local: Local search\n"
+                    "- global: Global search\n"
+                    "- hybrid: Combines local and global search\n"
+                    "- mix: Combines knowledge graph and vector search"
+                ),
+            )
     rag_ready = st.sidebar.button("Perform RAG or Initialize Model")
 
-print(f'Open AI model: {openai_model}')
-print(data_task, data_value)
+print(f"Selected OpenAI model: {openai_model}")
+print(f"Data task: {data_task}, Data value: {data_value}")
+print(f"RAG type selected: {rag_type}")
 
 # Initialize chatbot only after confirmation
 if rag_ready:  # Check both flags before proceeding
@@ -254,8 +317,9 @@ if rag_ready:  # Check both flags before proceeding
                 openai_model=openai_model,
                 llama_model_path=ollama_model_path,
                 huggingface_model=huggingface_model_path,
+                rag_type=rag_type,
             )
-            st.sidebar.success(f"Chatbot initialized with model `{model_category}` and RAG task `{data_task}`.")
+            st.sidebar.success(f"Chatbot initialized with model `{model_category}` and RAG task `{data_task}`, using '{rag_type}.")
     finally:
         # Cleanup uploaded files and folder
         session_folder = st.session_state.get("session_folder")
@@ -290,19 +354,24 @@ if user_prompt := st.chat_input("Your prompt"):
                     openai_model=openai_model,
                     llama_model_path=ollama_model_path,
                     huggingface_model=huggingface_model_path,
+                    rag_type=rag_type,
                 )
-            result = st.session_state.chatbot.chat(f"Question: {user_prompt}", with_sources=True)
-
-            answer = result.get("result", "Sorry, I couldn't process that.")
-            sources = result.get("sources", [])
-
-            if isinstance(answer, str):
-                answer = answer
-            elif hasattr(answer, 'content'):
-                answer = answer.content
-                # sources = result.additional_kwargs.get('sources', [])
+            if rag_type == "LightRAG":
+                answer = st.session_state.chatbot.chat(f"Question: {user_prompt}", mode = light_rag_mode)
+                sources = []  # No sources for LightRAG
             else:
-                answer = answer['result'].content
+                result = st.session_state.chatbot.chat(f"Question: {user_prompt}", with_sources=True)
+
+                answer = result.get("result", "Sorry, I couldn't process that.")
+                sources = result.get("sources", [])
+
+                if isinstance(answer, str):
+                    answer = answer
+                elif hasattr(answer, 'content'):
+                    answer = answer.content
+                    # sources = result.additional_kwargs.get('sources', [])
+                else:
+                    answer = answer['result'].content
                  
         
             # Display the assistant's response
@@ -311,28 +380,53 @@ if user_prompt := st.chat_input("Your prompt"):
                 message_placeholder.markdown(full_response + "▌")
             message_placeholder.markdown(full_response)
 
-            # Display sources if available
-            # Display sources if available
+
+            ## Display sources if available
+            # if sources:
+            #     sources_placeholder.markdown("**Sources:**")
+            #     unique_sources = list(set(sources))  # Remove duplicates by converting to a set and back 
+            #     source_links = []
+            #     for idx, source in enumerate(unique_sources, start=1):
+            #         # Check if the source is a valid URL and display it as a clickable link
+            #         if isinstance(source, str):
+            #             if source.startswith("http"):
+            #                 source_links.append(f"{idx}. [{source}]({source})")
+            #             else:
+            #                 source_links.append(f"{idx}. {source}")
+            #         else:
+            #             # Handle non-string sources (e.g., dicts or objects)
+            #             source_links.append(f"{idx}. {str(source)}")
+            #     # Combine all source links and display them
+            #     sources_placeholder.markdown("\n".join(source_links))
+
+
+
+            # Display and format sources
+            formatted_sources = ""
             if sources:
-                sources_placeholder.markdown("**Sources:**")
-                unique_sources = list(set(sources))  # Remove duplicates by converting to a set and back 
-                source_links = []
+                formatted_sources = "\n\n**Sources:**\n"
+                unique_sources = list(set(sources))
                 for idx, source in enumerate(unique_sources, start=1):
-                    # Check if the source is a valid URL and display it as a clickable link
                     if isinstance(source, str):
                         if source.startswith("http"):
-                            source_links.append(f"{idx}. [{source}]({source})")
+                            formatted_sources += f"{idx}. [{source}]({source})\n"
                         else:
-                            source_links.append(f"{idx}. {source}")
+                            formatted_sources += f"{idx}. {source}\n"
                     else:
-                        # Handle non-string sources (e.g., dicts or objects)
-                        source_links.append(f"{idx}. {str(source)}")
-                # Combine all source links and display them
-                sources_placeholder.markdown("\n".join(source_links))
-
-                            
+                        formatted_sources += f"{idx}. {str(source)}\n"
+                sources_placeholder.markdown(formatted_sources)
+                
+                                            
             # Save the response to session and MongoDB
-            st.session_state.messages.append({"role": "assistant", "content": full_response})
+            # st.session_state.messages.append({"role": "assistant", "content": full_response})
+            
+            # Save the complete response (including sources) to session state
+            st.session_state.messages.append({
+                "role": "assistant", 
+                # "content": full_response + formatted_sources if formatted_sources else full_response,
+                "content": full_response,
+                "sources": sources  # Store sources separately for future reference
+            })
             chats_collection.insert_one(
                 {
                     "question": user_prompt,

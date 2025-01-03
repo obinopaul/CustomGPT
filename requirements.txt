@@ -28,3 +28,4 @@ langchain_huggingface
 pydantic
 langchain-community
 pymongo
+lightrag-hku

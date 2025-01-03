@@ -147,10 +147,12 @@ class VectorStoreManager:
         )
         logger.info(f"Chroma vector store initialized with collection '{self.collection_name}' and persist directory '{self.persist_directory}'.")
 
+
+
     def _initialize_pinecone_vector_store(self):
         """
         For Pinecone usage. 
-        Checks if the index exists; if not, creates it using self.dimension.
+        Checks if the index exists; if it does, deletes and recreates it; otherwise, creates it from scratch.
         """
         if not self.pinecone_api_key:
             raise ValueError("Pinecone API key must be provided for Pinecone vector store.")
@@ -159,27 +161,33 @@ class VectorStoreManager:
         pc = Pinecone(pinecone_api_key=self.pinecone_api_key)
         existing_indexes = [index_info["name"] for index_info in pc.list_indexes()]
         
-        if self.pinecone_index_name in existing_indexes:
-            # Connect to the existing index and wipe it clean
-            logger.info(f"Pinecone index '{self.pinecone_index_name}' exists. Deleting all vectors.")
-            index = pc.Index(self.pinecone_index_name)
-            index.delete(delete_all=True)
-            logger.info(f"Pinecone index '{self.pinecone_index_name}' wiped clean.")
-        else:
-            logger.info(f"Pinecone index '{self.pinecone_index_name}' does not exist. Creating it.")
+        try:
+            # Check if the index exists
+            if self.pinecone_index_name in existing_indexes:
+                logger.info(f"Pinecone index '{self.pinecone_index_name}' exists. Deleting it.")
+                pc.delete_index(self.pinecone_index_name)
+                logger.info(f"Index '{self.pinecone_index_name}' deleted successfully.")
+            
+            # Create the index
+            logger.info(f"Creating Pinecone index '{self.pinecone_index_name}'.")
             pc.create_index(
                 name=self.pinecone_index_name,
                 dimension=self.dimension,
                 metric="cosine",
                 spec=ServerlessSpec(cloud="aws", region="us-east-1")
             )
-            logger.info(f"Pinecone index '{self.pinecone_index_name}' created.")
-            self._wait_for_pinecone_index_to_be_ready()
+            logger.info(f"Pinecone index '{self.pinecone_index_name}' created successfully.")
+            # self._wait_for_pinecone_index_to_be_ready()
+            
+            # Connect to the index
+            self.index = pc.Index(self.pinecone_index_name)
+            self.vector_store = PineconeVectorStore(index=self.index, embedding=self.embeddings)
+            logger.info(f"Pinecone vector store initialized with index '{self.pinecone_index_name}'.")
+        
+        except Exception as e:
+            logger.error(f"An error occurred while initializing the Pinecone vector store: {e}")
+            raise
 
-        # Connect to the newly created or existing index
-        self.index = pc.Index(self.pinecone_index_name)
-        self.vector_store = PineconeVectorStore(index=self.index, embedding=self.embeddings)
-        logger.info(f"Pinecone vector store initialized with index '{self.pinecone_index_name}'.")
 
 
     def _wait_for_pinecone_index_to_be_ready(self):
