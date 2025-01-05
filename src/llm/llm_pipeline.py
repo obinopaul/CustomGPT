@@ -4,8 +4,10 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory, ConversationBufferWindowMemory
 from langchain_community.vectorstores import Chroma
 from src.llm.openai import OpenAIChatbot
+from src.llm.deepseek import DeepSeekChatbot
 from src.llm.huggingface import HuggingFaceChatbot
 from src.llm.llama import LlamaChatbot
+import os
 
 class LLMPipeline:
     def __init__(
@@ -19,6 +21,9 @@ class LLMPipeline:
         return_messages: bool = True,
         k: int = 4,
         huggingface_api_key = None,
+        deepseek_api_key = None,
+        deepseek_model = None,
+        model: Optional[str] = None,
         **kwargs
     ):
         """
@@ -36,11 +41,14 @@ class LLMPipeline:
         :param kwargs:          Additional config passed to chatbot constructor
         """
         self.model_type = model_type
+        self.model = model
         self.api_key = api_key
         self.model_path = model_path
         self.model_name = model_name
         self.kwargs = kwargs
+        self.deepseek_model = deepseek_model
         self.huggingface_api_key = huggingface_api_key
+        self.deepseek_api_key = deepseek_api_key
 
         # Instantiate the appropriate chatbot
         self.chatbot = self._load_chatbot()
@@ -51,7 +59,13 @@ class LLMPipeline:
         based on model_type.
         """
         if self.model_type == "openai":
-            return OpenAIChatbot(api_key=self.api_key, **self.kwargs)
+            return OpenAIChatbot(api_key=self.api_key, 
+                                 model=self.model,
+                                 **self.kwargs)
+        elif self.model_type == "deepseek":
+            return DeepSeekChatbot(api_key=self.deepseek_api_key if self.deepseek_api_key else os.getenv("DEEPSEEK_API_KEY",), 
+                                 model = self.deepseek_model,
+                                 **self.kwargs)
         elif self.model_type == "huggingface":
             return HuggingFaceChatbot(
                 model_name=self.model_name,

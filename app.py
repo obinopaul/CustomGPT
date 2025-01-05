@@ -210,17 +210,18 @@ def initialize_chatbot(
     openai_model=None,
     llama_model_path=None,
     huggingface_model=None,
+    deepseek_model=None,
     embedding_type="openai",
     rag_type = "LightRAG",  # New parameter to toggle between frameworks
     ollama_embedding_model = None
 ):
-    
+
     if model_type is None:
         raise ValueError("Model type is required but not provided.")
     if model_type == "openai" and openai_model is None:
         raise ValueError("OpenAI model is required but not provided.")
-    if not data_task or not data_value:
-        rag_type = "LangChain"  # Default to LangChain if no RAG task is provided
+    # if not data_task or not data_value:
+    #     rag_type = "LangChain"  # Default to LangChain if no RAG task is provided
     
     if rag_type == "LightRAG":
         # Use the LightRAG-based framework
@@ -269,6 +270,8 @@ def initialize_chatbot(
             elsevier_api_key = os.getenv('ELSEVIER_API_KEY'),
             pinecone_api_key=os.getenv("PINECONE_API_KEY"),
             huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY'),
+            deepseek_api_key=os.getenv("DEEPSEEK_API_KEY"),
+            deepseek_model = deepseek_model,
             model=openai_model,
             model_path=llama_model_path,
             model_name=huggingface_model,
@@ -278,6 +281,35 @@ def initialize_chatbot(
         st.session_state.chatbot.setup_llm_pipeline()
 
 
+    elif rag_type == "None" or data_task is None or data_value is None:
+        
+        # Use the initial RunChatbot-based framework
+        from src.run_rag_pipeline import RunChatbot
+                
+        # """Initialize or reinitialize the chatbot instance."""
+        st.session_state.chatbot = RunChatbot(
+            model_type=model_type,
+            api_key=os.getenv("OPENAI_API_KEY"),
+            use_rag=bool(data_task),
+            data_task=data_task,
+            data_value=data_value,
+            vector_store_type=vector_store_type,
+            embedding_type=embedding_type,
+            temperature=0.7,
+            github_access_token=os.getenv("GITHUB_PERSONAL_TOKEN"),
+            ieee_api_key=os.getenv("IEEE_API_KEY"),
+            elsevier_api_key = os.getenv('ELSEVIER_API_KEY'),
+            pinecone_api_key=os.getenv("PINECONE_API_KEY"),
+            huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY'),
+            deepseek_api_key=os.getenv("DEEPSEEK_API_KEY"),
+            deepseek_model = deepseek_model,
+            model=openai_model,
+            model_path=llama_model_path,
+            model_name=huggingface_model,
+        )
+        st.session_state.chatbot.setup_llm_pipeline()
+        
+        
 def save_uploaded_files(uploaded_files):
     """Save uploaded files and return their paths."""
     if not uploaded_files:
@@ -342,7 +374,7 @@ elif data_icon == "Solve GitHub Issues":
 st.sidebar.header("Large Language Models")
 model_category = st.sidebar.radio(
     "Select a Model Category:",
-    ["OpenAI", "HuggingFace", "Ollama"],
+    ["OpenAI", "HuggingFace", "Ollama", "DeepSeek"],
     help="Choose the category of machine learning model you'd like to use.",
 )
 
@@ -351,12 +383,13 @@ huggingface_model_path = None
 ollama_model_path = None
 model_ready = False  # Flag to confirm model readiness
 rag_type = None
+deepseek_model = None
 
 # Model Selection
 if model_category == "OpenAI":
     openai_model = st.sidebar.selectbox(
         "Choose an OpenAI Model:",
-        ["Select a Model", "gpt-4", "gpt-4o", "gpt-4-turbo", "gpt-4o-mini", "o1", "o1-mini", "gpt-3.5-turbo"],
+        ["Select a Model", "gpt-4o", "gpt-4-turbo", "gpt-4o-mini", "o1", "o1-mini", "gpt-3.5-turbo"],
         help="Select an OpenAI model to use."
     )
     if openai_model == "Select a Model":  # Ensure user selects a valid model
@@ -366,10 +399,23 @@ if model_category == "OpenAI":
         st.sidebar.success(f"Selected OpenAI Model: `{openai_model}`")
         model_ready = True
 
+elif model_category == "DeepSeek":
+    deepseek_model = st.sidebar.text_input(
+        "Enter DeepSeek Model:",
+        placeholder="e.g., deepseek-chat",
+        help="Select a DeepSeek model to use"
+    )
+    if deepseek_model.strip() in ["deepseek-chat", "deepseek-coder"]:  # Ensure user has provided input
+        model_ready = True
+        st.sidebar.success(f"Selected DeepSeek Model: `{deepseek_model}`")
+    else:
+        deepseek_model = None
+        st.sidebar.warning("Please provide a valid DeepSeek model.")
+        
 elif model_category == "HuggingFace":
     huggingface_model_path = st.sidebar.text_input(
         "Enter HuggingFace Model Path:",
-        placeholder="e.g., google/flan-t5-large",
+        placeholder="e.g., meta-llama/Llama-2-7b-hf",
         help="Provide the path to a HuggingFace model from the model hub."
     )
     if huggingface_model_path.strip():  # Ensure user has provided input
@@ -397,7 +443,7 @@ elif model_category == "Ollama":
 if (data_task and data_value) or model_ready:  # Ensure RAG or Model input is ready
     rag_type = st.sidebar.selectbox(
         "Choose RAG Framework:",
-        ["LangChain", "LightRAG"],
+        ["None", "LangChain", "LightRAG"],
         help="Select the framework for Retrieval-Augmented Generation."
     )
     # Subcategory for LightRAG Modes
@@ -431,6 +477,8 @@ if rag_ready:  # Check both flags before proceeding
     try:
         if model_category.lower() == "openai" and not openai_model:
             st.error("Please select a valid OpenAI model.")
+        elif model_category.lower() == "deepseek" and not deepseek_model:
+            st.error("Please provide a valid DeepSeek model.")
         elif model_category.lower() == "huggingface" and not huggingface_model_path:
             st.error("Please provide a valid HuggingFace model path.")
         elif model_category.lower() == "ollama" and not ollama_model_path:
@@ -443,6 +491,7 @@ if rag_ready:  # Check both flags before proceeding
                 openai_model=openai_model,
                 llama_model_path=ollama_model_path,
                 huggingface_model=huggingface_model_path,
+                deepseek_model = deepseek_model,
                 rag_type=rag_type,
             )
             st.sidebar.success(f"Chatbot initialized with model `{model_category}` and RAG task `{data_task}`, using '{rag_type}.")
@@ -480,6 +529,7 @@ if user_prompt := st.chat_input("Your prompt"):
                     openai_model=openai_model,
                     llama_model_path=ollama_model_path,
                     huggingface_model=huggingface_model_path,
+                    deepseek_model = deepseek_model,
                     rag_type=rag_type,
                 )
             if rag_type == "LightRAG":

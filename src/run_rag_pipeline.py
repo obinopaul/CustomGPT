@@ -80,6 +80,7 @@ class RunChatbot:
         model_name: Optional[str] = None,           # for HuggingFace
         model:Optional[str] = None,                 # for OpenAI model. This is the model name
         temperature: float = 0.7,
+        deepseek_model = None,
         # max_tokens: int = 150,
         top_p: float = 0.9,
         freq_penalty: float = 0.3,
@@ -128,6 +129,7 @@ class RunChatbot:
         self.freq_penalty = freq_penalty
         self.pres_penalty = pres_penalty
         self.model = model
+        self.deepseek_model = deepseek_model
 
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
@@ -288,6 +290,8 @@ class RunChatbot:
             model_name=self.model_name,
             memory_type="buffer",    # or "window" if you want
             temperature=self.temperature,
+            deepseek_model = self.deepseek_model,
+            deepseek_api_key = self.kwargs.get("deepseek_api_key", os.getenv("DEEPSEEK_API_KEY")),
             window_size=5,
             return_messages=True,
             model = self.model,

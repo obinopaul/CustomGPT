@@ -29,7 +29,9 @@ class HuggingFaceChatbot:
         huggingface_api_key: str = None,
         device: str = "cpu",
         model_kwargs: dict = None,
-        encode_kwargs: dict = None
+        encode_kwargs: dict = None,
+        
+        **kwargs
     ):
         """
         :param model_name:  The Hugging Face model name or repo id, e.g. "facebook/opt-350m"
@@ -43,6 +45,7 @@ class HuggingFaceChatbot:
         self.device = device
         self.model_kwargs = model_kwargs or {}
         self.encode_kwargs = encode_kwargs or {}
+        self.kwargs = kwargs
 
         # 1) Create a HuggingFacePipeline LLM
         #    (If you had a custom endpoint, you'd adapt here.)
@@ -51,6 +54,7 @@ class HuggingFaceChatbot:
             task="text-generation",
             device=device,
             model_kwargs=self.model_kwargs
+            # **self.kwargs
         )
 
         # Prepare memory for multi-turn chat
