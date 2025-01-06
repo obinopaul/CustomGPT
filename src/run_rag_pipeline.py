@@ -260,7 +260,7 @@ class RunChatbot:
             vector_store_type=self.vector_store_type,
             embedding_type=self.embedding_type,
             pinecone_api_key=self.kwargs.get("pinecone_api_key", os.getenv("PINECONE_API_KEY")),
-            pinecone_index_name=self.kwargs.get("pinecone_index_name", "langchain-index"),
+            pinecone_index_name=self.kwargs.get("pinecone_index_name", "langchain-index"),  #langchain-index
             collection_name=self.kwargs.get("collection_name", "langchain_collection"),
             embedding_model_name = "text-embedding-ada-002" if self.embedding_type == "openai" else self.model_name
         )

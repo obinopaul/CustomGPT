@@ -1,7 +1,7 @@
 # CustomGPT Chatbot with RAG Features
 
 ## Overview
-This project is a **custom chatbot application** built with **Streamlit**, integrating advanced machine learning capabilities using **OpenAI**, **HuggingFace**, and **Ollama** models. The chatbot supports various **Retrieval-Augmented Generation (RAG)** operations to enhance its responses and is powered by a flexible backend that uses **Pinecone** as the default vector database (with support for Chroma as well). Chat history is stored in **MongoDB**, enabling future features like returning common prompts and responses.
+This project is a **custom chatbot application** built with **Streamlit**, integrating advanced machine learning capabilities using **OpenAI**, **HuggingFace**, **DeepSeek**, and **Ollama** models. The chatbot supports various **Retrieval-Augmented Generation (RAG)** operations like **LightRAG** and **LangChain's Simple RAG** to enhance its responses and is powered by a flexible backend that uses **Pinecone** or **ChromaDB** as the default vector database (with support for Chroma as well). Chat history is stored in **MongoDB**, enabling future features like returning common prompts and responses.
 
 This project was developed during the Christmas holidays of 2024 and marks my final project for the year. 
 
@@ -19,6 +19,7 @@ The chatbot can be configured to work with the following model categories:
 - **OpenAI:** Supports models like `gpt-4`, `gpt-4-turbo`, and `gpt-3.5-turbo`.
 - **HuggingFace:** Allows users to input a model path from the HuggingFace Model Hub (e.g., `google/flan-t5-large`).
 - **Ollama:** Supports Ollama models with user-provided paths.
+- **DeepSeek:** Supports DeepSeek model with with options to choose from deepseek-chat or deepseek-coder.
 
 ### 2. **Retrieval-Augmented Generation (RAG)**
 The chatbot supports the following RAG operations to enhance its knowledge base and responses:

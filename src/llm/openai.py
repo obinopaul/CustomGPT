@@ -11,6 +11,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
+from langchain import hub
 from langchain.memory import ConversationBufferMemory
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 
@@ -228,8 +229,12 @@ class OpenAIChatbot:
         :param chain_type:      (Unused, for signature compatibility).
         :return:                The answer text.
         """
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
         # Create or update the chain
-        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
+        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template=prompt)
 
         # Now ask the chain
         result = self.conversation_chain({"question": query})
@@ -246,8 +251,12 @@ class OpenAIChatbot:
         :param chain_type:      (Unused, for signature compatibility).
         :return:                Dict with {"result": <answer>, "sources": <list of docs>}
         """
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
         # Create or update the chain
-        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
+        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template=prompt)
 
         # Ask the chain
         result = self.conversation_chain({"question": query})

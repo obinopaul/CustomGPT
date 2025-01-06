@@ -4,6 +4,7 @@ import json
 from dotenv import load_dotenv
 
 # LangChain & HuggingFace
+from langchain import hub 
 from langchain.chains import ConversationalRetrievalChain
 from langchain_huggingface import HuggingFacePipeline
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
@@ -213,6 +214,9 @@ class HuggingFaceChatbot:
         :param chain_type:      Ignored, for signature compatibility.
         :return:                The final answer string.
         """
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
         # Build or update our conversation chain
         self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
 
@@ -230,6 +234,9 @@ class HuggingFaceChatbot:
         :param chain_type:      Ignored, for method signature compatibility.
         :return:                {"result": <answer>, "sources": <list of docs>}
         """
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
         # Build or update our conversation chain
         self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
 

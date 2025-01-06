@@ -4,6 +4,7 @@ from openai import OpenAI
 import openai
 from textwrap import dedent
 import json
+from langchain import hub
 from langchain.chains import RetrievalQA
 from langchain_openai import ChatOpenAI as LangchainChatOpenAI
 from langchain_openai import OpenAI as LangchainOpenAI
@@ -229,6 +230,9 @@ class DeepSeekChatbot:
         :param chain_type:      (Unused, for signature compatibility).
         :return:                The answer text.
         """
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
         # Create or update the chain
         self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
 
@@ -247,6 +251,10 @@ class DeepSeekChatbot:
         :param chain_type:      (Unused, for signature compatibility).
         :return:                Dict with {"result": <answer>, "sources": <list of docs>}
         """
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
         # Create or update the chain
         self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
 

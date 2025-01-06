@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from textwrap import dedent
 import json
+from langchain import hub
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM, ChatOllama, OllamaEmbeddings
@@ -181,7 +182,11 @@ class LlamaChatbot:
         :param chain_type:      Unused, for signature compatibility.
         :return:                The final answer string.
         """
-        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
+        
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
+        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template = prompt)
         result = self.conversation_chain({"question": query})
         return result["answer"]
 
@@ -195,7 +200,10 @@ class LlamaChatbot:
         :param chain_type:      Unused, for signature compatibility.
         :return:                Dict with {"result": <answer>, "sources": <list of documents>}
         """
-        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template)
+        if prompt_template is None:
+            prompt = hub.pull("hwchase17/multi-query-retriever")
+            
+        self.create_retrieval_qa_chain(retriever, chain_type, prompt_template = prompt)
         result = self.conversation_chain({"question": query})
         return {
             "result": result["answer"],
