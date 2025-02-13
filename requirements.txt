@@ -23,7 +23,7 @@ PyPDF2
 groq
 ollama
 unstructured
-python-magic-bin
+# python-magic-bin
 selenium
 docx2txt
 gitpython
