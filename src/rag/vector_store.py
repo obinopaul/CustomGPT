@@ -9,7 +9,8 @@ from getpass import getpass
 # Import Vector Stores
 from langchain_pinecone import PineconeVectorStore
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import OpenAIEmbeddings, LlamaCppEmbeddings
+from langchain_community.embeddings import LlamaCppEmbeddings
+from langchain_openai import OpenAIEmbeddings  # Ensure langchain-openai is installed
 from langchain_ollama import OllamaEmbeddings  # Ensure langchain-ollama is installed
 from langchain_huggingface import HuggingFaceEmbeddings  # Ensure langchain-huggingface is installed
 from langchain.schema import BaseRetriever
