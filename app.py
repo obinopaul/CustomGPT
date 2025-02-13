@@ -50,8 +50,8 @@ elsevier_api_secret = os.getenv('ELSEVIER_API_SECRET')
 # mongo_collections = os.getenv('MONGO_COLLECTIONS')
 # mongo_app_name = os.getenv('MONGO_APP_NAME')
 
-if not all([username, password, cluster, database, app_name]):
-    raise ValueError("One or more MongoDB environment variables are missing.")
+# if not all([username, password, cluster, database, app_name]):
+#     raise ValueError("One or more MongoDB environment variables are missing.")
 
 # MongoDB Connection URI
 mongo_uri = f"mongodb+srv://{username}:{password}@{cluster}/{database}?retryWrites=true&w=majority&appName={app_name}"
