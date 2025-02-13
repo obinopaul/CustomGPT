@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: custom-gpt
+    region: oregon  # Options: oregon, frankfurt, singapore
+    plan: free  # Change to "starter" or "pro" if needed
+    runtime: python  # Uses Python 3.11 by default
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: PORT
+        value: 8080  # Render automatically assigns a port
