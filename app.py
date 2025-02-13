@@ -18,12 +18,12 @@ from streamlit_lottie import st_lottie
 load_dotenv()
 
 # Construct MongoDB URI using environment variables
-username = os.getenv("MONGO_USERNAME")
+username = os.getenv("MONGO_USERNAME") or "obinopaul"
 password = os.getenv("MONGO_PASSWORD")
-cluster = os.getenv("MONGO_CLUSTER")
-database = os.getenv("MONGO_DB")
-app_name = os.getenv("MONGO_APP_NAME")
-
+cluster = os.getenv("MONGO_CLUSTER") or "obinopaul.rcqbe.mongodb.net"
+database = os.getenv("MONGO_DB") or "paul_db"
+app_name = os.getenv("MONGO_APP_NAME") or "obinopaul"
+    
 # GitHub API keys
 github_username = os.getenv('GITHUB_USERNAME')
 github_personal_token = os.getenv('GITHUB_PERSONAL_TOKEN')
