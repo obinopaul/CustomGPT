@@ -11,21 +11,6 @@
         "src": "/(.*)",
         "dest": "app.py"
       }
-    ],
-    "env": {
-      "MONGO_USERNAME": "@mongo_username",
-      "MONGO_PASSWORD": "@mongo_password",
-      "MONGO_CLUSTER": "@mongo_cluster",
-      "MONGO_DB": "@mongo_db",
-      "MONGO_APP_NAME": "@mongo_app_name",
-      "GITHUB_USERNAME": "@github_username",
-      "GITHUB_PERSONAL_TOKEN": "@github_personal_token",
-      "OPENAI_API_KEY": "@openai_api_key",
-      "HUGGINGFACE_API_KEY": "@huggingface_api_key",
-      "PINECONE_API_KEY": "@pinecone_api_key",
-      "PINECONE_INDEX_NAME": "@pinecone_index_name",
-      "ELSEVIER_API_KEY": "@elsevier_api_key",
-      "IEEE_API_KEY": "@ieee_api_key"
-    }
+    ]
   }
   
