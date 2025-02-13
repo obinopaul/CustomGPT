@@ -468,9 +468,9 @@ if (data_task and data_value) or model_ready:  # Ensure RAG or Model input is re
             )
     rag_ready = st.sidebar.button("Perform RAG or Initialize Model")
 
-print(f"Selected OpenAI model: {openai_model}")
-print(f"Data task: {data_task}, Data value: {data_value}")
-print(f"RAG type selected: {rag_type}")
+# print(f"Selected OpenAI model: {openai_model}")
+# print(f"Data task: {data_task}, Data value: {data_value}")
+# print(f"RAG type selected: {rag_type}")
 
 # Initialize chatbot only after confirmation
 if rag_ready:  # Check both flags before proceeding

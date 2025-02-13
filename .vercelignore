@@ -1,0 +1,7 @@
+Dockerfile
+.git
+__pycache__
+uploads/
+lightrag_data/
+references/
+*.pckl

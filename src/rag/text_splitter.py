@@ -5,9 +5,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter, TokenTextSpl
 from src.rag.document_loader import (
     URLDocumentLoader,
     FileDocumentLoader,
-    GitHubIssuesDocumentLoader,
-    GitHubRepoDocumentLoader,
-    ResearchPapersDocumentLoader
 )
 import logging
 
@@ -109,63 +106,4 @@ class TextSplitter:
         logger.info(f"Loading file documents from paths: {file_paths}")
         loader = FileDocumentLoader()
         documents = loader.load_from_files(file_paths)
-        return self.split_documents(documents)
-
-    def split_github_issues_documents(
-        self,
-        repos: Union[str, List[str]],
-        access_token: str,
-    ) -> List[Document]:
-        """
-        Load and split documents from GitHub repository issues.
-        :param repos: A single repository or a list of repositories in 'owner/repo' format.
-        :param access_token: GitHub access token for authentication.
-        :param load_max_docs: Maximum number of issues to load.
-        :return: List of split Document objects.
-        """
-        logger.info(f"Loading GitHub issues from repos: {repos}")
-        loader = GitHubIssuesDocumentLoader(access_token=access_token)
-        documents = loader.load_documents(repos=repos)
-        return self.split_documents(documents)
-
-    def split_github_repo_documents(
-        self,
-        repo_urls: Union[str, List[str]],
-        clone_dir: str
-    ) -> List[Document]:
-        """
-        Load and split documents from GitHub repositories.
-        :param repo_urls: A single repository URL or a list of repository URLs.
-        :param clone_dir: Directory to clone the repositories into.
-        :return: List of split Document objects.
-        """
-        logger.info(f"Loading GitHub repository documents from URLs: {repo_urls}")
-        loader = GitHubRepoDocumentLoader(repo_urls=repo_urls, clone_dir=clone_dir)
-        documents = loader.load_documents_as_dicts()
-        return self.split_documents(documents)
-
-    def split_research_papers_documents(
-        self,
-        query: str,
-        max_results: int = 10,
-        sources: Optional[List[str]] = None,
-        ieee_api_key: Optional[str] = None,
-        elsevier_api_key: Optional[str] = None
-    ) -> List[Document]:
-        """
-        Load and split documents from research paper sources based on a query.
-        :param query: The search query string.
-        :param max_results: Maximum number of papers to retrieve per source.
-        :param sources: List of sources to search in. Options: ['arxiv', 'ieee', 'elsevier']. If None, searches all.
-        :param ieee_api_key: IEEE API key for authentication.
-        :param elsevier_api_key: Elsevier API key for authentication.
-        :return: List of split Document objects.
-        """
-        logger.info(f"Loading research papers with query: '{query}', max_results: {max_results}, sources: {sources}")
-        
-        loader = ResearchPapersDocumentLoader(
-            ieee_api_key=ieee_api_key,
-            elsevier_api_key=elsevier_api_key
-        )
-        documents = loader.load_papers_as_dicts(query, max_results, sources)
         return self.split_documents(documents)
